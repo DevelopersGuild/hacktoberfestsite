@@ -1,12 +1,11 @@
 import React from "react"
 import Helmet from "react-helmet"
 import clsx from "clsx"
-// import { StyleSheet, css } from "aphrodite"
+import { StyleSheet, css } from "aphrodite"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import NavigationBar from "../components/navigation-bar"
 import ScheduleTable from "../components/schedule-table"
-import Team from "../components/team"
 
 export default function Home({ data }) {
   return (
@@ -72,18 +71,16 @@ export default function Home({ data }) {
         <p className="lead mb-3 text-mono text-success">
           Learn About The Event Team
         </p>
-        <Team />
       </div>
     </React.Fragment>
   )
 }
 
 // apply custom styles through the aphrodite stylesheet
-// const styles = StyleSheet.create({
-//   customStyle: {
-// height: "100vh",
-//   },
-// })
+// https://github.com/Khan/aphrodite
+const styles = StyleSheet.create({
+  customStyle: {},
+})
 
 // query static data through graphql I am fetching an optimized image here
 export const query = graphql`
