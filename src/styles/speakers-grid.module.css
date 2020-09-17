@@ -1,0 +1,14 @@
+.speaker {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+}
+
+.speaker:hover {
+    cursor: pointer;
+}
+
+.profileImage {
+    border-radius: 50%;
+    margin: 10px;
+  }

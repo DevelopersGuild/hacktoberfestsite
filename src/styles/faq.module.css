@@ -1,0 +1,11 @@
+.item {
+    display: inline-flex;
+    margin: 10px;
+    align-items: flex-start ;
+}
+
+.accordian {
+    width: 500px;
+    background-color: #714cdf !important;
+    color: white !important;
+}

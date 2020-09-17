@@ -1,0 +1,48 @@
+[
+    {
+        "day": "Saturday",
+        "events": [
+            {
+                "name": "Learning Git",
+                "host": "John Filler",
+                "timeBlock": "8:00am-8:30am",
+                "dayRank": 1
+            },
+            {
+                "name": "Learning Git 2",
+                "host": "John Filler",
+                "timeBlock": "8:30am-9:00am",
+                "dayRank": 1
+            },
+            {
+                "name": "Learning Git 3",
+                "host": "John Filler",
+                "timeBlock": "9:00am-9:30am",
+                "dayRank": 1
+            }
+        ]
+    },
+    {
+        "day": "Sunday",
+        "events": [
+            {
+                "name": "Learning Python",
+                "host": "John Filler",
+                "timeBlock": "8:00am-8:30am",
+                "dayRank": 1
+            },
+            {
+                "name": "Learning Python 2",
+                "host": "John Filler",
+                "timeBlock": "8:30am-9:00am",
+                "dayRank": 1
+            },
+            {
+                "name": "Learning Python 3",
+                "host": "John Filler",
+                "timeBlock": "9:00am-9:30am",
+                "dayRank": 1
+            }
+        ]
+    }
+]

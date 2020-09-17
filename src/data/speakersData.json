@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Bob",
+        "description": "hello",
+        "imgPath": "profile.jpg",
+        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+    },
+    {
+        "name": "Joanne",
+        "description": "hi",
+        "imgPath": "profile.jpg",
+        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+    },
+    {
+        "name": "Lisa",
+        "description": "bye",
+        "imgPath": "profile.jpg",
+        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+    },
+    {
+        "name": "Tom",
+        "description": "salutations",
+        "imgPath": "profile.jpg",
+        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+    },
+    {
+        "name": "Joe",
+        "description": "salutations",
+        "imgPath": "profile.jpg",
+        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+    },
+    {
+        "name": "Mary",
+        "description": "salutations",
+        "imgPath": "profile.jpg",
+        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+    },
+    {
+        "name": "George",
+        "description": "salutations",
+        "imgPath": "profile.jpg",
+        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+    }
+]
