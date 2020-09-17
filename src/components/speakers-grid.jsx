@@ -19,7 +19,7 @@ export default function SpeakersGrid() {
           window.open(speaker.profileLink, '__blank')
         }}>
           <div className="column">
-            <div className="card">
+            <div className={`card ${speakerStyles.card}`}>
               <div>
                 <Image
                   className={speakerStyles.profileImage}
