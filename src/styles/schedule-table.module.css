@@ -1,0 +1,17 @@
+.dayButton {
+    display: inline-flex;
+    margin: 2px;
+}
+
+.scheduleTable {
+    border-radius: 15px;
+    border: none !important;
+}
+
+.currentButton {
+    filter: brightness(70%);
+}
+
+.filler {
+
+}
