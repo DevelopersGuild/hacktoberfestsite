@@ -1,7 +1,13 @@
 .speaker {
     display: inline-block;
+    justify-content: center;
+    align-content: center;
     width: 300px;
-    margin: 20px;
+    margin: 10px;
+}
+
+.holder {
+
 }
 
 .speaker:hover {

@@ -19,6 +19,30 @@
                 "host": "John Filler",
                 "timeBlock": "9:00am-9:30am",
                 "dayRank": 1
+            },
+            {
+                "name": "Learning Git 4",
+                "host": "John Filler",
+                "timeBlock": "9:30am-10:00am",
+                "dayRank": 1
+            },
+            {
+                "name": "Learning Git 5",
+                "host": "John Filler",
+                "timeBlock": "10:00am-10:30am",
+                "dayRank": 1
+            },
+            {
+                "name": "Learning Git 6",
+                "host": "John Filler",
+                "timeBlock": "10:30am-11:00am",
+                "dayRank": 1
+            },
+            {
+                "name": "Learning Git 7",
+                "host": "John Filler",
+                "timeBlock": "11:00am-11:30am",
+                "dayRank": 1
             }
         ]
     },

@@ -19,6 +19,18 @@
 
     },
     {
+        "name": "Person",
+        "imgPath": "profile.jpg",
+        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+
+    },
+    {
+        "name": "Human",
+        "imgPath": "profile.jpg",
+        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+
+    },
+    {
         "name": "Tom",
         "imgPath": "profile.jpg",
         "profileLink": "https://www.linkedin.com/in/williamhgates/"

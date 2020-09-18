@@ -4,5 +4,20 @@
     padding: 50px;
 }
 
-.backgroundImage {
+.mainButton {
+    font-size: 150%;
+}
+
+.description {
+    font-size: 180%;
+}
+
+.buttonDescription {
+    font-size: 120%;
+}
+
+.speakerContainer {
+    margin-left: 50px;
+    align-content: center;
+    justify-content: center;
 }

@@ -1,11 +1,15 @@
 .item {
+    width: 100%;
+    max-width: 500px;
     display: inline-flex;
     margin: 10px;
     align-items: flex-start ;
+    justify-content: center;
 }
 
 .accordian {
-    width: 500px;
+    width: 100%;
+    max-width: 450px;
     background-color: #714cdf !important;
     color: white !important;
 }
