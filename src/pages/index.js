@@ -14,9 +14,8 @@ import AboutUs from "../components/about-us"
 import landingPageStyles from "../styles/landingPage.module.css"
 import Sponsors from "../components/sponsors"
 import Typing from "react-typing-animation"
-import Cursor from "react-typing-animation"
-
 import ExpandLessIcon from "@material-ui/icons/ExpandLess"
+import Bounce from "react-reveal/Bounce"
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -91,7 +90,9 @@ export default class Home extends React.Component {
             id="#about"
             className={clsx("container", css(styles.fullHeightContainer))}
           >
-            <h1 className="display-2">About the Event</h1>
+            <Bounce left>
+              <h1 className="display-2">About the Event</h1>
+            </Bounce>
             <p className="lead mb-3 text-mono text-primary">
               Learn More About The Event
             </p>
@@ -102,7 +103,9 @@ export default class Home extends React.Component {
             id="#schedule"
             className={clsx("container", css(styles.fullHeightContainer))}
           >
-            <h1 className="display-2">Schedule</h1>
+            <Bounce left>
+              <h1 className="display-2">Schedule</h1>
+            </Bounce>
             <p className="lead mb-3 text-mono text-primary">
               Learn About The Event Schedule
             </p>
@@ -115,7 +118,9 @@ export default class Home extends React.Component {
             id="#speakers"
             className={clsx("container", css(styles.fullHeightContainer))}
           >
-            <h1 className="display-2">Speakers</h1>
+            <Bounce left>
+              <h1 className="display-2">Speakers</h1>
+            </Bounce>
             <p className="lead mb-3 text-mono text-primary">
               Learn About The Event Speakers
             </p>
@@ -128,7 +133,9 @@ export default class Home extends React.Component {
             id="#team"
             className={clsx("container", css(styles.fullHeightContainer))}
           >
-            <h1 className="display-2">Team</h1>
+            <Bounce left>
+              <h1 className="display-2">Team</h1>
+            </Bounce>
             <p className="lead mb-3 text-mono text-primary">
               Learn About The Event Team
             </p>
@@ -141,7 +148,10 @@ export default class Home extends React.Component {
             id="#faq"
             className={clsx("container", css(styles.fullHeightContainer))}
           >
+                    <Bounce left>
+
             <h1 className="display-2">FAQ</h1>
+            </Bounce>
             <p className="lead mb-3 text-mono text-primary">
               Some commonly asked questions
             </p>
@@ -152,11 +162,15 @@ export default class Home extends React.Component {
             id="#sponsors"
             className={clsx("container", css(styles.fullHeightContainer))}
           >
-            <h1 className="display-2">Sponsors</h1>
+            <Bounce left>
+              <h1 className="display-2">Sponsors</h1>
+            </Bounce>
             <p className="lead mb-3 text-mono text-primary">
               The Organizations That Make This Event Possible
             </p>
-            <Sponsors />
+            <div className={landingPageStyles.sponsorContainer}>
+              <Sponsors />
+            </div>
           </div>
           {this.state.windowPosition > 800 && (
             <span
