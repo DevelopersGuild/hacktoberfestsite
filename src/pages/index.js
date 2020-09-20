@@ -16,31 +16,36 @@ import Sponsors from "../components/sponsors"
 import Typing from "react-typing-animation"
 import Cursor from "react-typing-animation"
 
-import ExpandLessIcon from '@material-ui/icons/ExpandLess';
-
+import ExpandLessIcon from "@material-ui/icons/ExpandLess"
 
 export default class Home extends React.Component {
-
   constructor(props) {
-    super();
-    this.state = {
-      windowPosition: window.pageYOffset,
-    };
+    super()
+    if (typeof window !== `undefined`) {
+      this.state = {
+        windowPosition: window.pageYOffset,
+      }
+    } else {
+      this.state = {
+        windowPosition: 0,
+      }
+    }
   }
 
-handleScroll() {
-  this.setState({windowPosition: window.pageYOffset});
-  console.log(this.state.windowPosition);
-}
+  handleScroll() {
+    if (typeof window !== `undefined`) {
+      this.setState({ windowPosition: window.pageYOffset })
+    }
+    console.log(this.state.windowPosition)
+  }
 
-componentDidMount() {
-  window.addEventListener('scroll', this.handleScroll.bind(this));
-}
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll.bind(this))
+  }
 
-componentWillUnmount() {
-  window.removeEventListener('scroll', this.handleScroll.bind(this));
-}
-
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll.bind(this))
+  }
 
   render() {
     return (
@@ -155,10 +160,14 @@ componentWillUnmount() {
           </div>
           {this.state.windowPosition > 800 && (
             <span
-              onClick={() => {window.scrollTo({top: 0, behavior: "smooth"})}}
+              onClick={() => {
+                window.scrollTo({ top: 0, behavior: "smooth" })
+              }}
               className={`btn btn-primary js-ht-download-link ${landingPageStyles.backTopButton}`}
             >
-              <ExpandLessIcon style={{width: '50px', height: '50px', margin: 'auto auto'}}/>
+              <ExpandLessIcon
+                style={{ width: "50px", height: "50px", margin: "auto auto" }}
+              />
             </span>
           )}
           <div style={{ marginBottom: "400px" }}></div>
