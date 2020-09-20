@@ -8,11 +8,12 @@ import Image from '../components/image'
 
 
 
-export default function AboutUs() {
+export default class AboutUs extends React.Component {
 
 
-    return (
-        <div className={aboutUsStyles.infoRow}>
+    render() {
+        return (
+            <div className={aboutUsStyles.infoRow}>
                 <div>
                     <div className={`${aboutUsStyles.secondaryInfo} ${aboutUsStyles.topLeft}`}>
                         {JSONData["about-us-off-1"]}
@@ -24,7 +25,7 @@ export default function AboutUs() {
                         {JSONData["about-us-off-3"]}
                     </div>
                 </div>
-                <div style={{width: '400px', height: '400px'}} className={aboutUsStyles.mainInfo}>
+                <div style={{ width: (this.state.width * 0.3).toString() + 'px', height: (this.state.width * 0.3).toString() + 'px' }} className={aboutUsStyles.mainInfo}>
                     {JSONData["about-us-main"]}
                 </div>
                 <div>
@@ -38,8 +39,9 @@ export default function AboutUs() {
                         {JSONData["about-us-off-6"]}
                     </div>
                 </div>
-        </div>
-    )
+            </div>
+        )
+    }
 
 }
 

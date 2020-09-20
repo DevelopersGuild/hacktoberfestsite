@@ -1,17 +1,16 @@
 .dayButton {
-    display: inline-flex;
-    margin: 2px;
+  display: inline-flex;
+  margin: 2px;
 }
 
 .scheduleTable {
-    border-radius: 15px;
-    border: none !important;
+  border-radius: 15px;
+  border: none !important;
 }
 
 .currentButton {
-    filter: brightness(70%);
+  filter: brightness(70%);
 }
 
 .filler {
-
 }
