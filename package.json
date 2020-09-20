@@ -35,6 +35,7 @@
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
     "react": "^16.12.0",
+    "react-background-animation": "^1.0.1",
     "react-bootstrap": "^1.3.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
@@ -43,7 +44,8 @@
     "react-scroll": "^1.8.1",
     "react-scroll-parallax": "^2.3.4",
     "react-scrollspy": "^3.4.3",
-    "react-typing-animation": "^1.6.2"
+    "react-typing-animation": "^1.6.2",
+    "vanta": "^0.5.19"
   },
   "devDependencies": {
     "gh-pages": "^3.1.0",
