@@ -1,7 +1,6 @@
 import React from "react"
 import JSONData from '../data/speakersData.json'
 import speakerStyles from "../styles/speakers-grid.module.css"
-import { graphql } from "gatsby"
 import Image from '../components/image'
 import Zoom from 'react-reveal/Zoom';
 

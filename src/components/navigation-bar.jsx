@@ -1,11 +1,11 @@
-import React from 'react';
-import Button from '@material-ui/core/Button';
-import Menu from '@material-ui/core/Menu';
-import MenuItem from '@material-ui/core/MenuItem'; import { Link, animateScroll as scroll } from "react-scroll"
+import React from 'react'
+import Button from '@material-ui/core/Button'
+import Menu from '@material-ui/core/Menu'
+import MenuItem from '@material-ui/core/MenuItem' 
+import { Link, animateScroll as scroll } from "react-scroll"
 import navBarStyles from "../styles/navigation-bar.module.css"
 import Image from '../components/image'
 import MediaQuery from 'react-responsive'
-import Scrollspy from 'react-scrollspy'
 
 
 
@@ -21,8 +21,6 @@ export default function NavigationBar({ data }) {
   const handleClose = () => {
     setAnchorEl(null);
   };
-
-
 
   return (
     <div>
@@ -86,7 +84,7 @@ export default function NavigationBar({ data }) {
             </Link>
             </li>
             <li className={navBarStyles.navItem}>
-              <Link activeClass={navBarStyles.active} to="#faq" spy={true} smooth={true} duration={500} offset={-70}>
+              <Link activeClass={navBarStyles.activeScroll} to="#faq" spy={true} smooth={true} duration={500} offset={-70}>
                 FAQ
             </Link>
             </li>

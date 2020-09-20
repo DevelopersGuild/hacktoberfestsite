@@ -7,10 +7,15 @@
     padding: 50px;
     margin: auto auto;
     font-size: 20px;
+    min-width: 350px;
+    min-height: 350px;
+
 
 }
 
 .secondaryInfo {
+    flex-wrap: wrap;
+
     width: 180px;
     height: 180px;
     display: flex;
@@ -50,7 +55,9 @@
 }
 
 .infoRow {
-    margin-left: 10.5%;
+    flex-wrap: wrap;
+
+    margin-left: 9%;
     display: inline-flex;  
     align-items: center;
     text-align: center; 

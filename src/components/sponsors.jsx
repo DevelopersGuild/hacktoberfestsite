@@ -1,10 +1,7 @@
 import React from "react"
 import JSONData from '../data/sponsorData.json'
 import sponsorStyles from "../styles/sponsors.module.css"
-import { graphql } from "gatsby"
 import Image from '../components/image'
-import Zoom from 'react-reveal/Zoom';
-import { Parallax } from 'react-scroll-parallax';
 
 
 
