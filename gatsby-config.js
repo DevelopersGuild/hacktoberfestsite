@@ -1,6 +1,7 @@
 const path = require("path")
 
 module.exports = {
+  pathPrefix: "/De-Anza-Hacks-Website",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -9,10 +10,19 @@ module.exports = {
         path: path.join(__dirname, `src`, `images`),
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: path.join(__dirname, `src`, `data`),
+      },
+    },
+    `gatsby-transformer-json`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-aphrodite`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-purgecss`,
       options: {

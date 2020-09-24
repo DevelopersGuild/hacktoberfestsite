@@ -2,6 +2,7 @@
 /* List of color variables that arent in theme colors */
 
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -10,6 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  overflow-x: hidden;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -36,8 +38,8 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  --font-family: 'Roboto Mono', monospace;
+}
 
 *,
 *::before,
@@ -46,23 +48,23 @@
           box-sizing: border-box; }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Roboto Mono', monospace;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
-
+  
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
 body {
   margin: 0;
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Roboto Mono', monospace;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #e4e2ff;
   text-align: left;
-  background-color: #0c0d16; }
+  background-color: #000000; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -159,7 +161,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 1em; }
 
 pre {
@@ -5192,7 +5194,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Roboto Mono', monospace;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5277,7 +5279,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Roboto Mono', monospace;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -8399,7 +8401,7 @@ button.bg-dark:focus {
     margin-left: auto !important; } }
 
 .text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important; }
+  font-family: 'Roboto Mono', monospace !important; }
 
 .text-justify {
   text-align: justify !important; }
@@ -8913,7 +8915,7 @@ body {
 .display-2,
 .display-3,
 .display-4 {
-  font-family: "Hack", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+  font-family: 'Roboto Mono', monospace; }
   .text-white .display-1, .display-1.text-white, .text-white
   .display-2,
   .display-2.text-white, .text-white
@@ -8936,7 +8938,7 @@ body {
   color: #6f6974; }
 
 .text-mono {
-  font-family: "Hack", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+  font-family: 'Roboto Mono', monospace; }
 
 .btn-success, .btn-success:hover, .btn-success:focus, .btn-success:active {
   color: #c1f8c2; }

@@ -1,0 +1,66 @@
+.content {
+    text-align: center;
+    margin: auto auto;
+    padding: 100px;
+}
+
+.mainButton {
+    font-size: 30px;
+}
+
+.description {
+    font-size: 180%;
+}
+
+.buttonDescription {
+    font-size: 120%;
+}
+
+.speakerContainer {
+    margin-left: 45px;
+    align-content: center;
+    justify-content: center;
+}
+
+.scheduleContainer {
+    margin-left: 20px;
+}
+
+.sponsorContainer {
+    margin-left: 25px;
+}
+
+
+.backTopButton {
+    position: sticky;
+    display: flex;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    opacity: 1;
+    margin: 35px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.backTopButton:hover {
+   cursor: pointer;
+}
+
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }

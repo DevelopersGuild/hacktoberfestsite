@@ -1,54 +1,52 @@
 import React from "react"
+import { Parallax } from 'react-scroll-parallax';
+import JSONData from '../data/scheduleData.json'
+import scheduleTableStyles from '../styles/schedule-table.module.css'
 
-export default function ScheduleTable() {
-  return (
-    <table className="table table-hover table-primary">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Event Name</th>
-          <th>Host</th>
-          <th>Time Block</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Learning Git</td>
-          <td>John Filler</td>
-          <td>8:00am-8:30am</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Learning Javascript</td>
-          <td>John Filler</td>
-          <td>9:00am-10:30am</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Learning Soft Skills</td>
-          <td>John Filler</td>
-          <td>11:00am-12:30pm</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Hacktober Celebration Kickoff</td>
-          <td>De Anza Hacks Team</td>
-          <td>??-??</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>WICS event</td>
-          <td>De Anza Hacks Team</td>
-          <td>??-??</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Wrapping Up</td>
-          <td>De Anza Hacks Team</td>
-          <td>??-??</td>
-        </tr>
-      </tbody>
-    </table>
-  )
+
+export default class ScheduleTable extends React.Component {
+
+  constructor(props) {
+    super();
+    this.state = {
+      dayIndex: 0
+    };
+  }
+
+  setDay(index) {
+    this.setState({ dayIndex: index })
+  }
+
+  render() {
+    return (
+      <Parallax x={[-10, 10]}>
+        {JSONData.map((event, index) =>
+          <div className={scheduleTableStyles.dayButton}>
+            <a
+              onClick={() => this.setDay(index)}
+              className={`btn btn-primary ${index === this.state.dayIndex? scheduleTableStyles.currentButton: scheduleTableStyles.filler} px-5 my-2 ml-0 text-left js-ht-download-link`}
+            >
+              {event.day}
+            </a>
+          </div>)}
+        <table className={`table table-hover table-primary ${scheduleTableStyles.scheduleTable}`}>
+          <thead style={{border: "none"}}>
+              <th style={{border: "none"}}>Event Name</th>
+              <th style={{border: "none"}}>Host</th>
+              <th style={{border: "none"}}>Time Block</th>
+          </thead>
+          <tbody>
+            {JSONData[this.state.dayIndex].events.map((event, index) =>
+              <tr>
+                <td>{event.name}</td>
+                <td>{event.host}</td>
+                <td>{event.timeBlock}</td>
+              </tr>
+
+            )}
+          </tbody>
+        </table>
+      </Parallax>
+    )
+  }
 }

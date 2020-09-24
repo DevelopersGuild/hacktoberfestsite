@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Bob",
+        "description": "salutations salutations salutations salutations salutations salutations salutations salutations salutations",
+        "imgPath": "profile.jpg",
+        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+    },
+    {
+        "name": "Joanne",
+        "description": "salutations salutations salutations salutations salutations salutations salutations salutations salutations",
+        "imgPath": "profile.jpg",
+        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+    },
+    {
+        "name": "Lisa",
+        "description": "salutations salutations salutations salutations salutations salutations salutations salutations salutations",
+        "imgPath": "profile.jpg",
+        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+    },
+    {
+        "name": "Tom",
+        "description": "salutations salutations salutations salutations salutations salutations salutations salutations salutations",
+        "imgPath": "profile.jpg",
+        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+    },
+    {
+        "name": "Joe",
+        "description": "salutations salutations salutations salutations salutations salutations salutations salutations salutations",
+        "imgPath": "profile.jpg",
+        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+    },
+    {
+        "name": "Mary",
+        "description": "salutations salutations salutations salutations salutations salutations salutations salutations salutations",
+        "imgPath": "profile.jpg",
+        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+    },
+    {
+        "name": "George",
+        "description": "salutations salutations salutations salutations salutations salutations salutations salutations salutations",
+        "imgPath": "profile.jpg",
+        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+    }
+]
