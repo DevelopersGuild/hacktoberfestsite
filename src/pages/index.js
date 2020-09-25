@@ -139,7 +139,7 @@ export default class Home extends React.Component {
             <p className="lead mb-3 text-mono text-primary">
               Learn About The Event Team
             </p>
-            <Parallax x={[50, -50]}>
+            <Parallax x={[5, -5]}>
               <TeamGrid />
             </Parallax>
           </div>
