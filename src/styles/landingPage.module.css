@@ -1,11 +1,12 @@
 .content {
     text-align: center;
     margin: auto auto;
-    padding: 100px;
+    padding: 5%;
 }
 
 .mainButton {
     font-size: 30px;
+    text-align: center;
 }
 
 .description {
