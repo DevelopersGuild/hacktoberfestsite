@@ -54,7 +54,7 @@ export default class Home extends React.Component {
         <br />
         <ParallaxProvider>
           <div className={clsx("container", css(styles.fullHeightContainer))}>
-            <Image alt="Hackathon Banner Image" filename="background-top.jpg" />
+            <Image alt="Hackathon Banner Image" filename="background-top.png" />
           </div>
           <div className={landingPageStyles.content}>
             <Typing
@@ -73,7 +73,7 @@ export default class Home extends React.Component {
                 href="https://www.putthemlhregistrationformhere.com"
                 target="__blank"
                 rel="noreferrer"
-                className={`btn btn-primary px-5 my-2 ml-0 text-left js-ht-download-link ${landingPageStyles.mainButton}`}
+                className={`btn btn-primary px-5 my-2 ml-0 text-center js-ht-download-link ${landingPageStyles.mainButton}`}
               >
                 Register Today
               </a>
@@ -82,19 +82,19 @@ export default class Home extends React.Component {
           <div className={clsx("container", css(styles.fullHeightContainer))}>
             <Image
               alt="Hackathon Banner Image"
-              filename="background-bottom.jpg"
+              filename="background-bottom.png"
             />
           </div>
-          {/* About The Event*/}
+          {/* About*/}
           <div
             id="#about"
             className={clsx("container", css(styles.fullHeightContainer))}
           >
             <Bounce left>
-              <h1 className="display-2">About the Event</h1>
+              <h1 className="display-2">About</h1>
             </Bounce>
             <p className="lead mb-3 text-mono text-primary">
-              Learn More About The Event
+              Learn Some More About The Event
             </p>
             <AboutUs />
           </div>
@@ -139,7 +139,7 @@ export default class Home extends React.Component {
             <p className="lead mb-3 text-mono text-primary">
               Learn About The Event Team
             </p>
-            <Parallax x={[10, -10]}>
+            <Parallax x={[50, -50]}>
               <TeamGrid />
             </Parallax>
           </div>
