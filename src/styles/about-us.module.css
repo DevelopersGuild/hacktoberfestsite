@@ -6,10 +6,7 @@
     align-items: center;
     padding: 50px;
     margin: auto auto;
-    font-size: 20px;
-    min-width: 380px;
-    min-height: 380px;
-
+    font-size: 100%;
 
 }
 
@@ -55,8 +52,7 @@
 
 .infoRow {
     flex-wrap: wrap;
-
-    margin-left: 7.5%;
+    margin-left: 7%;
     display: inline-flex;  
     align-items: center;
     text-align: center; 

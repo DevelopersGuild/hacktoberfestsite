@@ -43,7 +43,7 @@ export default class AboutUs extends React.Component {
                         {JSONData["about-us-off-3"]}
                     </div>
                 </div>
-                <div style={{ width: (this.state.width * 0.3).toString() + 'px', height: (this.state.width * 0.3).toString() + 'px', minHeight: '400px', minWidth: '400px', maxWidth: '450px', maxHeight: '450px' }} className={aboutUsStyles.mainInfo}>
+                <div style={{ width: (this.state.width * 0.7).toString() + 'px', height: (this.state.width * 0.7).toString() + 'px', minHeight: '335px', minWidth: '335px', maxWidth: '450px', maxHeight: '450px' }} className={aboutUsStyles.mainInfo}>
                     {JSONData["about-us-main"]}
                 </div>
                 <div>
