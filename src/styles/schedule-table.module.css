@@ -4,9 +4,15 @@
 }
 
 .scheduleTable {
+  font-size: 100%;
   border-radius: 15px;
-  font-size: 72%;
   border: none !important;
+}
+
+@media (max-width: 400px) { 
+  .scheduleTable {
+    font-size: 72% !important;
+  }
 }
 
 .currentButton {
