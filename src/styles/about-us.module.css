@@ -15,16 +15,15 @@
 
 .secondaryInfo {
     flex-wrap: wrap;
-
-    width: 180px;
-    height: 180px;
+    width: 190px;
+    height: 190px;
     display: flex;
     border-radius: 50%;
     background-color: blueviolet;
     text-align: center;
     align-items: center;
     margin: auto auto;
-    padding: 25px;
+    padding: 16px;
     font-size: 30px;
     margin: 20px;
     animation: bounce 1s infinite; 

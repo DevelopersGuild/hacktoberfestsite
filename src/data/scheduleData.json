@@ -3,45 +3,57 @@
         "day": "Saturday",
         "events": [
             {
-                "name": "Learning Git",
-                "host": "John Filler",
-                "timeBlock": "8:00am-8:30am",
+                "name": "Welcome Session",
+                "host": "The DA Hack Team",
+                "timeBlock": "09:30am-10:00am",
                 "dayRank": 1
             },
             {
-                "name": "Learning Git 2",
-                "host": "John Filler",
-                "timeBlock": "8:30am-9:00am",
-                "dayRank": 1
-            },
-            {
-                "name": "Learning Git 3",
-                "host": "John Filler",
-                "timeBlock": "9:00am-9:30am",
-                "dayRank": 1
-            },
-            {
-                "name": "Learning Git 4",
-                "host": "John Filler",
-                "timeBlock": "9:30am-10:00am",
-                "dayRank": 1
-            },
-            {
-                "name": "Learning Git 5",
-                "host": "John Filler",
+                "name": "NGO Presentation",
+                "host": "A Special NGO",
                 "timeBlock": "10:00am-10:30am",
                 "dayRank": 1
             },
             {
-                "name": "Learning Git 6",
-                "host": "John Filler",
-                "timeBlock": "10:30am-11:00am",
+                "name": "Helping Attendees Find Projects",
+                "host": "The DA Hack Team",
+                "timeBlock": "10:30am-10:45am",
                 "dayRank": 1
             },
             {
-                "name": "Learning Git 7",
-                "host": "John Filler",
-                "timeBlock": "11:00am-11:30am",
+                "name": "Matchmaking(Organizing Teams)",
+                "host": "The DA Hack Team",
+                "timeBlock": "10:45am-11:30am",
+                "dayRank": 1
+            },
+            {
+                "name": "Intro To Git",
+                "host": "A Special Speaker",
+                "timeBlock": "01:00pm-02:00pm",
+                "dayRank": 1
+            },
+            {
+                "name": "Intro to APIs",
+                "host": "A Special Speaker",
+                "timeBlock": "02:15pm-03:15pm",
+                "dayRank": 1
+            },
+            {
+                "name": "A Career in Tech",
+                "host": "Cathryn Paterson",
+                "timeBlock": "03:30pm-04:30pm",
+                "dayRank": 1
+            },
+            {
+                "name": "Machine Learning and Artificial Intelligence",
+                "host": "Tal Globus",
+                "timeBlock": "04:45pm-05:45pm",
+                "dayRank": 1
+            },
+            {
+                "name": "The Coding Continues",
+                "host": "The Attendees",
+                "timeBlock": "06pm-onwards",
                 "dayRank": 1
             }
         ]
@@ -50,21 +62,39 @@
         "day": "Sunday",
         "events": [
             {
-                "name": "Learning Python",
-                "host": "John Filler",
-                "timeBlock": "8:00am-8:30am",
+                "name": "Power Networking + Resume building",
+                "host": "Nupur Mehta",
+                "timeBlock": "09:30am-10:30am",
                 "dayRank": 1
             },
             {
-                "name": "Learning Python 2",
-                "host": "John Filler",
-                "timeBlock": "8:30am-9:00am",
+                "name": "A Special Event",
+                "host": "A Special Speaker",
+                "timeBlock": "10:45am-11:45am",
                 "dayRank": 1
             },
             {
-                "name": "Learning Python 3",
-                "host": "John Filler",
-                "timeBlock": "9:00am-9:30am",
+                "name": "Break",
+                "host": "The Attendees",
+                "timeBlock": "12:00pm-01:00pm",
+                "dayRank": 1
+            },
+            {
+                "name": "Workshop G",
+                "host": "A Special Speaker",
+                "timeBlock": "01:15pm-2:15pm",
+                "dayRank": 1
+            },
+            {
+                "name": "Final Presentation",
+                "host": "The DA Hack Team",
+                "timeBlock": "02:30pm-04:00pm",
+                "dayRank": 1
+            },
+            {
+                "name": "The End of DA Hack(for this year)",
+                "host": "DA Hack",
+                "timeBlock": "4:00pm-nextYear",
                 "dayRank": 1
             }
         ]

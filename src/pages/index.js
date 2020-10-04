@@ -70,7 +70,7 @@ export default class Home extends React.Component {
             </p>
             <div className="text-mono">
               <a
-                href="https://www.putthemlhregistrationformhere.com"
+                href="https://organize.mlh.io/participants/events/4217-da-hack"
                 target="__blank"
                 rel="noreferrer"
                 className={`btn btn-primary px-5 my-2 ml-0 text-center js-ht-download-link ${landingPageStyles.mainButton}`}

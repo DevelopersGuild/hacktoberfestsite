@@ -36,14 +36,14 @@ export default class AboutUs extends React.Component {
                     <div className={`${aboutUsStyles.secondaryInfo} ${aboutUsStyles.topLeft}`}>
                         {JSONData["about-us-off-1"]}
                     </div>
-                    <div className={`${aboutUsStyles.secondaryInfo} ${aboutUsStyles.midLeft}`}>
+                    <div className={    `${aboutUsStyles.secondaryInfo} ${aboutUsStyles.midLeft}`}>
                         {JSONData["about-us-off-2"]}
                     </div>
                     <div className={`${aboutUsStyles.secondaryInfo} ${aboutUsStyles.bottomLeft}`}>
                         {JSONData["about-us-off-3"]}
                     </div>
                 </div>
-                <div style={{ width: (this.state.width * 0.3).toString() + 'px', height: (this.state.width * 0.3).toString() + 'px', minHeight: '400px', minWidth: '400px', maxWidth: '600px', maxHeight: '600px' }} className={aboutUsStyles.mainInfo}>
+                <div style={{ width: (this.state.width * 0.3).toString() + 'px', height: (this.state.width * 0.3).toString() + 'px', minHeight: '400px', minWidth: '400px', maxWidth: '450px', maxHeight: '450px' }} className={aboutUsStyles.mainInfo}>
                     {JSONData["about-us-main"]}
                 </div>
                 <div>
