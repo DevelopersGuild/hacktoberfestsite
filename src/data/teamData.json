@@ -47,5 +47,11 @@
         "imgPath": "arushi.jpg",
         "profileLink": "https://www.linkedin.com/in/arushi-sharma01/"
 
+    },
+    {
+        "name": "Johnny To",
+        "imgPath": "johnny.jpg",
+        "profileLink": "https://www.linkedin.com/in/johnny-to-431273160/"
+
     }
 ]
