@@ -1,39 +1,57 @@
 [
     {
-        "name": "Bob",
+        "name": "Sue Yen Tan",
         "description": "hello",
-        "imgPath": "profile.jpg",
-        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+        "imgPath": "sueyen.jpg",
+        "profileLink": "https://www.linkedin.com/in/sueyenny/"
 
     },
     {
-        "name": "Joanne",
-        "imgPath": "profile.jpg",
-        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+        "name": "Carlos Alba",
+        "imgPath": "carlos.jpg",
+        "profileLink": "https://carlosalba.dev/"
 
     },
     {
-        "name": "Lisa",
-        "imgPath": "profile.jpg",
-        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+        "name": "Ryan Teoh",
+        "imgPath": "ryan.jpg",
+        "profileLink": "https://www.linkedin.com/in/teoh-ryan-4878bb198/"
 
     },
     {
-        "name": "Person",
-        "imgPath": "profile.jpg",
-        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+        "name": "Ezekiel Chow",
+        "imgPath": "ezekiel.jpg",
+        "profileLink": "https://www.linkedin.com/in/ezekiel-chow-244a171a1/"
 
     },
     {
-        "name": "Human",
-        "imgPath": "profile.jpg",
-        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+        "name": "Yusuf Quddus",
+        "imgPath": "yusuf.jpg",
+        "profileLink": "https://www.linkedin.com/in/yusuf-quddus/"
 
     },
     {
-        "name": "Tom",
-        "imgPath": "profile.jpg",
-        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+        "name": "Yousef Helal",
+        "imgPath": "yousef.jpg",
+        "profileLink": "https://www.linkedin.com/in/yousef-helal-2a9a42199/"
+
+    },
+    {
+        "name": "Alvin Fabrio",
+        "imgPath": "alvin.jpg",
+        "profileLink": "https://www.linkedin.com/in/alvin-fabrio-8259071a7/"
+
+    },
+    {
+        "name": "Arushi Sharma",
+        "imgPath": "arushi.jpg",
+        "profileLink": "https://www.linkedin.com/in/arushi-sharma01/"
+
+    },
+    {
+        "name": "Johnny To",
+        "imgPath": "johnny.jpg",
+        "profileLink": "https://www.linkedin.com/in/johnny-to-431273160/"
 
     }
 ]

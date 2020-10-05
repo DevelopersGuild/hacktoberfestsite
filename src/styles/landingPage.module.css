@@ -1,11 +1,12 @@
 .content {
     text-align: center;
     margin: auto auto;
-    padding: 100px;
+    padding: 5%;
 }
 
 .mainButton {
     font-size: 30px;
+    text-align: center;
 }
 
 .description {
@@ -17,13 +18,13 @@
 }
 
 .speakerContainer {
-    margin-left: 45px;
+    margin-left: 35px;
     align-content: center;
     justify-content: center;
 }
 
 .scheduleContainer {
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 .sponsorContainer {

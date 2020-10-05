@@ -1,34 +1,34 @@
 [
     {
-        "title": "Question 1",
-        "answer": "Yes"
+        "title": "What is open source?",
+        "answer": "Open source refers to source code that is publicly accessible and allows anyone to inspect, modify or learn from it. Open source projects encourage collaboration and the freedom to use the software for any purpose you wish."
     },
     {
-        "title": "Question 2",
-        "answer": "Yes"
+        "title": "What is a pull request?",
+        "answer": "Pull requests are proposed code changes you can submit to a branch in a repository on GitHub. Once submitted, a project maintainer will review and discuss the changes before they become final."
     },
     {
-        "title": "Question 3",
-        "answer": "Yes"
+        "title": "Can students from other colleges attend?",
+        "answer": "Yup. DA Hack is open to all students, regardless of which school they attend!"
     },
     {
-        "title": "Question 4",
-        "answer": "Yes"
+        "title": "What level of experience is required?",
+        "answer": "DA Hack is open to students of all levels of experience. Wether you are taking your introductory CS class, or have done years of programming, we welcome you!"
     },
     {
-        "title": "Question 5",
-        "answer": "Yes"
+        "title": "Do I have to be a Computer Science Major?",
+        "answer": "Nope. DA Hack is open to all students, regardless of their major!"
     },
     {
-        "title": "Question 6",
-        "answer": "Yes"
+        "title": "When will DA Hack be taking place?",
+        "answer": "DA Hack will be taking place on the days of October 24th and 25th. On the first day, we will have a welcome session at 9:30am, marking the beginning of DA Hack. We will have various workshops, presentations, and more, until 4pm of the next day!"
     },
     {
-        "title": "Question 7",
-        "answer": "Yes"
+        "title": "Where will DA Hack be taking place?",
+        "answer": "Unfortunatley, we find ourselves in the middle of a pandemic. As such, DA Hack will be completley online this year!"
     },
     {
-        "title": "Question 8",
-        "answer": "Yes"
+        "title": "What platforms will DA Hack be using?",
+        "answer": "We will be hosting all presentations, and live events through Zoom. In terms of contributing, the far majority of that will be done through GitHub!"
     }
 ]

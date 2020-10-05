@@ -1,42 +1,48 @@
 import React from "react"
-import JSONData from '../data/speakersData.json'
 import speakerStyles from "../styles/speakers-grid.module.css"
-import Image from '../components/image'
-import Zoom from 'react-reveal/Zoom';
-
-
-
-
+import Zoom from "react-reveal/Zoom"
+import { graphql, useStaticQuery } from "gatsby"
+import Image from "../components/image"
 
 export default function SpeakersGrid() {
+  const data = useStaticQuery(graphql`
+    query SpeakerSectionData {
+      allSpeakersDataJson {
+        nodes {
+          id
+          name
+          description
+          imgPath
+          profileLink
+        }
+      }
+    }
+  `)
 
-
-  return (
-    JSONData.map((speaker, index) =>
-      <Zoom>
-        <div className={speakerStyles.speaker} onClick={function (e) {
-          window.open(speaker.profileLink, '__blank')
-        }}>
-          <div className="column">
-            <div className={`card ${speakerStyles.card}`}>
-              <div>
-                <Image
-                  className={speakerStyles.profileImage}
-                  alt="Profile Picture"
-                  filename={speaker.imgPath}
-                />
-              </div>
-              <div className="container">
-                <h2>{speaker.name}</h2>
-                <p>{speaker.description}</p>
-              </div>
+  return data.allSpeakersDataJson.nodes.map(node => (
+    <Zoom key={node.id}>
+      <div
+        className={speakerStyles.speaker}
+        onClick={function (e) {
+          window.open(node.profileLink, "__blank")
+        }}
+      >
+        <div className="column">
+          <div className={`card ${speakerStyles.card}`}>
+            <div>
+              <Image
+                className={speakerStyles.profileImage}
+                alt="Profile Picture"
+                filename={node.imgPath}
+              />
+            </div>
+            <div className="container">
+              <h2>{node.name}</h2>
+              <p>{node.description}</p>
             </div>
           </div>
         </div>
-      </Zoom>
-    )
-  )
-
+      </div>
+    </Zoom>
+  ))
 }
-
-

@@ -1,44 +1,38 @@
 [
     {
-        "name": "Bob",
-        "description": "salutations salutations salutations salutations salutations salutations salutations salutations salutations",
-        "imgPath": "profile.jpg",
-        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+        "name": "Cathryn Patterson",
+        "description": "Founder of icathryn.com and BizPair. A career coaching influencer with a cause",
+        "imgPath": "cathryn.jpg",
+        "profileLink": "https://www.linkedin.com/in/cathrynpatterson/"
     },
     {
-        "name": "Joanne",
-        "description": "salutations salutations salutations salutations salutations salutations salutations salutations salutations",
-        "imgPath": "profile.jpg",
-        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+        "name": "Sreeya Say",
+        "description": "A software engineer at Draft with experience in numerous technologies, as well as mentoring students",
+        "imgPath": "sreeya.jpg",
+        "profileLink": "https://www.linkedin.com/in/sreeya-sai/"
     },
     {
-        "name": "Lisa",
-        "description": "salutations salutations salutations salutations salutations salutations salutations salutations salutations",
-        "imgPath": "profile.jpg",
-        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+        "name": "Priscilla Wang",
+        "description": "Founder of Girls Talk Tech, and a developer at JPMorgan",
+        "imgPath": "priscilla.jpg",
+        "profileLink": "https://www.linkedin.com/in/thepriscillawang/"
     },
     {
-        "name": "Tom",
-        "description": "salutations salutations salutations salutations salutations salutations salutations salutations salutations",
-        "imgPath": "profile.jpg",
-        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+        "name": "Justice Ogbonna",
+        "description": "A software engineer at Google. Upgrading the world, one line of code at a time",
+        "imgPath": "justin.jpg",
+        "profileLink": "https://www.linkedin.com/in/justiceogbonna/"
     },
     {
-        "name": "Joe",
-        "description": "salutations salutations salutations salutations salutations salutations salutations salutations salutations",
-        "imgPath": "profile.jpg",
-        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+        "name": "Nupur Mehta",
+        "description": "Co-Founder of OTAinfo, and a Curator at Global Shapers Palo Alto",
+        "imgPath": "nupur.jpg",
+        "profileLink": "https://www.linkedin.com/in/onenupur/"
     },
     {
-        "name": "Mary",
-        "description": "salutations salutations salutations salutations salutations salutations salutations salutations salutations",
-        "imgPath": "profile.jpg",
-        "profileLink": "https://www.linkedin.com/in/williamhgates/"
-    },
-    {
-        "name": "George",
-        "description": "salutations salutations salutations salutations salutations salutations salutations salutations salutations",
-        "imgPath": "profile.jpg",
-        "profileLink": "https://www.linkedin.com/in/williamhgates/"
+        "name": "Tal Globus",
+        "description": "A software engineer at 8x8, with expertise in the field of Machine Learning",
+        "imgPath": "tal.jpg",
+        "profileLink": "https://www.linkedin.com/in/talglobus/"
     }
 ]
