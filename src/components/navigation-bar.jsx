@@ -6,6 +6,7 @@ import { Link, animateScroll as scroll } from "react-scroll"
 import navBarStyles from "../styles/navigation-bar.module.css"
 import Image from "../components/image"
 import MediaQuery from "react-responsive"
+import ExternalLink from "./external-link"
 
 import { graphql } from "gatsby"
 
@@ -181,18 +182,18 @@ export default class NavigationBar extends React.Component {
         </nav>
         <MediaQuery minWidth={1000}>
           <div>
-            <Link
+            <ExternalLink
               className={navBarStyles.banner}
-              onClick={function (e) {
-                window.open("https://mlh.io/", "__blank")
-              }}
+              rel="noreferrer noopener"
+              target="__blank"
+              href="https://mlh.io/"
             >
               <Image
                 className={navBarStyles.banner}
                 alt="Logo"
                 filename="mlhbanner.png"
               ></Image>
-            </Link>
+            </ExternalLink>
           </div>
         </MediaQuery>
       </div>
