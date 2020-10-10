@@ -6,6 +6,7 @@ import { Link, animateScroll as scroll } from "react-scroll"
 import navBarStyles from "../styles/navigation-bar.module.css"
 import Image from '../components/image'
 import MediaQuery from 'react-responsive'
+import MenuIcon from '@material-ui/icons/Menu';
 
 
 
@@ -51,7 +52,9 @@ export default class NavigationBar extends React.Component {
         <nav className={`${navBarStyles.navbar} navbar-expand-lg navbar-dark bg-primary`}>
           {this.state.width < 1000 ? <div className={navBarStyles.drawer}>
             <Button aria-controls="simple-menu" aria-haspopup="true" onClick={this.handleClick}>
-              Open Menu
+             <MenuIcon
+                style={{ width: "30px", height: "30px", margin: "auto auto" }}
+              />           
             </Button>
             <Menu
               id="simple-menu"
