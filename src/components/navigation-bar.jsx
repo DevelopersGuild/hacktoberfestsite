@@ -1,49 +1,52 @@
-import React from 'react'
-import Button from '@material-ui/core/Button'
-import Menu from '@material-ui/core/Menu'
-import MenuItem from '@material-ui/core/MenuItem'
+import React from "react"
+import Button from "@material-ui/core/Button"
+import Menu from "@material-ui/core/Menu"
+import MenuItem from "@material-ui/core/MenuItem"
 import { Link, animateScroll as scroll } from "react-scroll"
 import navBarStyles from "../styles/navigation-bar.module.css"
 import Image from '../components/image'
 import MediaQuery from 'react-responsive'
 import MenuIcon from '@material-ui/icons/Menu';
+import ExternalLink from "./external-link"
 
 
+import { graphql } from "gatsby"
 
 export default class NavigationBar extends React.Component {
-
-
   constructor(props) {
-    super();
+    super()
     this.state = {
-      width: 0, height: 0, anchorEl: null, setAnchorEl: null
-    };
-    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
-    this.handleClick = this.handleClick.bind(this);
-    this.handleClose = this.handleClose.bind(this);
+      width: 0,
+      height: 0,
+      anchorEl: null,
+      setAnchorEl: null,
+    }
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this)
+    this.handleClick = this.handleClick.bind(this)
+    this.handleClose = this.handleClose.bind(this)
   }
 
   handleClick(event) {
     this.state.ancherEl
       ? this.setState({ anchorEl: null })
-      : this.setState({ anchorEl: event.currentTarget });
+      : this.setState({ anchorEl: event.currentTarget })
   }
 
   handleClose() {
-    this.setState({ anchorEl: null })  };
-
+    this.setState({ anchorEl: null })
+  }
 
   componentDidMount() {
-    this.updateWindowDimensions();
-    window.addEventListener('resize', this.updateWindowDimensions);
+    this.updateWindowDimensions()
+    window.addEventListener("resize", this.updateWindowDimensions)
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.updateWindowDimensions);
+    window.removeEventListener("resize", this.updateWindowDimensions)
   }
 
   updateWindowDimensions() {
-    this.setState({ width: window.innerWidth, height: window.innerHeight });
+    this.setState({ width: window.innerWidth, height: window.innerHeight })
   }
 
   render() {
@@ -89,49 +92,85 @@ export default class NavigationBar extends React.Component {
           <div className="collapse navbar-collapse navbar-right justify-content-end">
             <ul className={`nav navbar-nav navbar-right`}>
               <li className={navBarStyles.navItem}>
-                <Link activeClass={navBarStyles.activeScroll} to="#about" spy={true} smooth={true} duration={500} offset={-70}>
+                <Link
+                  activeClass={navBarStyles.activeScroll}
+                  to="#about"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                >
                   About
-            </Link>
+                </Link>
               </li>
               <li className={navBarStyles.navItem}>
-                <Link activeClass={navBarStyles.activeScroll} to="#schedule" spy={true} smooth={true} duration={500} offset={-70}>
+                <Link
+                  activeClass={navBarStyles.activeScroll}
+                  to="#schedule"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                >
                   Schedule
-            </Link>
+                </Link>
               </li>
               <li className={navBarStyles.navItem}>
-                <Link activeClass={navBarStyles.activeScroll} to="#speakers" spy={true} smooth={true} duration={500} offset={-70}>
+                <Link
+                  activeClass={navBarStyles.activeScroll}
+                  to="#speakers"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                >
                   Speakers
-            </Link>
+                </Link>
               </li>
               <li className={navBarStyles.navItem}>
-                <Link activeClass={navBarStyles.activeScroll} to="#team" spy={true} smooth={true} duration={500} offset={-70}>
+                <Link
+                  activeClass={navBarStyles.activeScroll}
+                  to="#team"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                >
                   Team
-            </Link>
+                </Link>
               </li>
               <li className={navBarStyles.navItem}>
-                <Link activeClass={navBarStyles.activeScroll} to="#faq" spy={true} smooth={true} duration={500} offset={-70}>
+                <Link
+                  activeClass={navBarStyles.activeScroll}
+                  to="#faq"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                >
                   FAQ
-            </Link>
+                </Link>
               </li>
             </ul>
           </div>
         </nav>
         <MediaQuery minWidth={1000}>
           <div>
-            <Link
+            <ExternalLink
               className={navBarStyles.banner}
-              onClick={function (e) {
-                window.open('https://mlh.io/', '__blank')
-              }}>
+              rel="noreferrer noopener"
+              target="__blank"
+              href="https://mlh.io/"
+            >
               <Image
                 className={navBarStyles.banner}
                 alt="Logo"
-                filename="mlhbanner.png">
-              </Image>
-            </Link >
+                filename="mlhbanner.png"
+              ></Image>
+            </ExternalLink>
           </div>
         </MediaQuery>
-      </div >
+      </div>
     )
   }
 }

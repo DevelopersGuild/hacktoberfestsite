@@ -1,10 +1,7 @@
 import React from "react"
 import Helmet from "react-helmet"
-import clsx from "clsx"
-import { StyleSheet, css } from "aphrodite"
 import NavigationBar from "../components/navigation-bar"
 import ScheduleTable from "../components/schedule-table"
-import JSONData from "../data/homeData.json"
 import SpeakersGrid from "../components/speakers-grid"
 import TeamGrid from "../components/team-grid"
 import { ParallaxProvider, Parallax } from "react-scroll-parallax"
@@ -16,17 +13,20 @@ import Sponsors from "../components/sponsors"
 import Typing from "react-typing-animation"
 import ExpandLessIcon from "@material-ui/icons/ExpandLess"
 import Bounce from "react-reveal/Bounce"
+import { graphql } from "gatsby"
 
 export default class Home extends React.Component {
-  constructor(props) {
+  constructor({ data }) {
     super()
     if (typeof window !== `undefined`) {
       this.state = {
         windowPosition: window.pageYOffset,
+        data: data,
       }
     } else {
       this.state = {
         windowPosition: 0,
+        data: data,
       }
     }
   }
@@ -53,7 +53,7 @@ export default class Home extends React.Component {
         <NavigationBar />
         <br />
         <ParallaxProvider>
-          <div className={clsx("container", css(styles.fullHeightContainer))}>
+          <div className={"container"}>
             <Image alt="Hackathon Banner Image" filename="background-top.png" />
           </div>
           <div className={landingPageStyles.content}>
@@ -62,7 +62,7 @@ export default class Home extends React.Component {
               speed={30}
               hideCursor={false}
             >
-              {JSONData.description}
+              {this.state.data.allDataJson.nodes[0].description}
             </Typing>
             <hr className="my-4" />
             <p className={landingPageStyles.buttonDescription}>
@@ -79,17 +79,14 @@ export default class Home extends React.Component {
               </a>
             </div>
           </div>
-          <div className={clsx("container", css(styles.fullHeightContainer))}>
+          <div className={"container"}>
             <Image
               alt="Hackathon Banner Image"
               filename="background-bottom.png"
             />
           </div>
           {/* About*/}
-          <div
-            id="#about"
-            className={clsx("container", css(styles.fullHeightContainer))}
-          >
+          <div id="#about" className={"container"}>
             <Bounce left>
               <h1 className="display-2">About</h1>
             </Bounce>
@@ -99,10 +96,7 @@ export default class Home extends React.Component {
             <AboutUs />
           </div>
           {/* Schedule Section we use the ID field for navigation */}
-          <div
-            id="#schedule"
-            className={clsx("container", css(styles.fullHeightContainer))}
-          >
+          <div id="#schedule" className={"container"}>
             <Bounce left>
               <h1 className="display-2">Schedule</h1>
             </Bounce>
@@ -114,10 +108,7 @@ export default class Home extends React.Component {
             </div>
           </div>
           {/* Speakers Section */}
-          <div
-            id="#speakers"
-            className={clsx("container", css(styles.fullHeightContainer))}
-          >
+          <div id="#speakers" className={"container"}>
             <Bounce left>
               <h1 className="display-2">Speakers</h1>
             </Bounce>
@@ -129,10 +120,7 @@ export default class Home extends React.Component {
             </div>
           </div>
           {/* Team Section */}
-          <div
-            id="#team"
-            className={clsx("container", css(styles.fullHeightContainer))}
-          >
+          <div id="#team" className={"container"}>
             <Bounce left>
               <h1 className="display-2">Team</h1>
             </Bounce>
@@ -144,13 +132,9 @@ export default class Home extends React.Component {
             </Parallax>
           </div>
           {/* FAQ Section */}
-          <div
-            id="#faq"
-            className={clsx("container", css(styles.fullHeightContainer))}
-          >
-                    <Bounce left>
-
-            <h1 className="display-2">FAQ</h1>
+          <div id="#faq" className={"container"}>
+            <Bounce left>
+              <h1 className="display-2">FAQ</h1>
             </Bounce>
             <p className="lead mb-3 text-mono text-primary">
               Some commonly asked questions
@@ -158,10 +142,7 @@ export default class Home extends React.Component {
             <Faq />
           </div>
           {/* Sponsors Section */}
-          <div
-            id="#sponsors"
-            className={clsx("container", css(styles.fullHeightContainer))}
-          >
+          <div id="#sponsors" className={"container"}>
             <Bounce left>
               <h1 className="display-2">Sponsors</h1>
             </Bounce>
@@ -191,8 +172,12 @@ export default class Home extends React.Component {
   }
 }
 
-// apply custom styles through the aphrodite stylesheet
-// https://github.com/Khan/aphrodite
-const styles = StyleSheet.create({
-  customStyle: {},
-})
+export const query = graphql`
+  query HomePageData {
+    allDataJson {
+      nodes {
+        description
+      }
+    }
+  }
+`
