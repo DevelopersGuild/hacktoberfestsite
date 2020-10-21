@@ -75,13 +75,13 @@ export default class NavigationBar extends React.Component {
                 <MenuItem onClick={this.handleClose}>Schedule</MenuItem>
               </Link>
 
-              <Link spy={true} smooth={true} duration={500} offset={-70}>
+              <Link to="#speakers" spy={true} smooth={true} duration={500} offset={-70}>
                 <MenuItem onClick={this.handleClose}>Speakers</MenuItem>
               </Link>
 
               <Link to="#team" spy={true} smooth={true} duration={500} offset={-70}>
                 <MenuItem onClick={this.handleClose}>Team</MenuItem>
-              </Link>
+              </Link>to="#schedule" 
 
               <Link to="#faq" spy={true} smooth={true} duration={500} offset={-70}>
                 <MenuItem onClick={this.handleClose}>FAQ</MenuItem>
