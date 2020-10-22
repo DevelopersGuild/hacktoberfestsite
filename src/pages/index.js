@@ -1,5 +1,6 @@
 import React from "react"
 import Helmet from "react-helmet"
+import clsx from "clsx"
 import NavigationBar from "../components/navigation-bar"
 import ScheduleTable from "../components/schedule-table"
 import SpeakersGrid from "../components/speakers-grid"
