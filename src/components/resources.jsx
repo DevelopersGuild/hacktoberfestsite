@@ -1,14 +1,15 @@
 import JSONData from "../data/resourcesData.json";
 import React from "react";
 import { ResponsiveEmbed } from "react-bootstrap";
-import { StyleSheet, css } from "aphrodite";
+import resourcesStyles from "../styles/resources.module.css"
+
 
 
 function EmbeddedField(props) {
     const { videoID, width, height } = props;
     return (
         <ResponsiveEmbed
-            className={css(embeddedStyles.embeddedContainer)}
+            className={resourcesStyles.embeddedContainer}
             style={{
                 width: width ? width : "560",
                 height: height ? height : "315",
@@ -27,12 +28,6 @@ function EmbeddedField(props) {
     );
 }
 
-const embeddedStyles = StyleSheet.create({
-    embeddedContainer: {
-        marginRight: "2vw",
-        flex: "0 0 auto",
-    },
-});
 
 function stripVideoID(passed) {
     return passed.split("https://www.youtube.com/watch?v=")[1];
@@ -43,7 +38,7 @@ function stripVideoID(passed) {
 function Curated(props) {
     return (
         <div>
-            <div className={css(styles.contentRow)}>
+            <div className={resourcesStyles.contentRow}>
                 {JSONData.other.map((youtubeVideo, idx) => (
                     <EmbeddedField
                         key={`${idx}-${youtubeVideo}`}
@@ -57,25 +52,5 @@ function Curated(props) {
     );
 }
 
-const styles = StyleSheet.create({
-    container: {
-        marginTop: "1vh",
-        marginBottom: "1vh",
-    },
-    contentRow: {
-        display: "flex",
-        flexDirection: "row",
-        justifyContent: "flex-start",
-        alignItems: "center",
-        flexWrap: "nowrap",
-        whiteSpace: "nowrap",
-        overflowY: "hidden",
-        overflowX: "auto",
-        scrollbarWidth: "none",
-        "::-webkit-scrollbar": {
-            display: "none",
-        },
-    },
-});
 
 export default Curated;
