@@ -1,40 +1,40 @@
 import React from "react"
-import JSONData from '../data/teamData.json'
 import teamStyles from "../styles/team-grid.module.css"
-import { graphql } from "gatsby"
-import Image from '../components/image'
-import Zoom from 'react-reveal/Zoom';
-import { Parallax } from 'react-scroll-parallax';
-
-
-
-
+import { graphql, useStaticQuery } from "gatsby"
+import Image from "../components/image"
 
 export default function TeamGrid() {
+  const data = useStaticQuery(graphql`
+    query TeamSectionData {
+      allTeamDataJson {
+        nodes {
+          id
+          name
+          imgPath
+          profileLink
+        }
+      }
+    }
+  `)
 
-
-  return (
-    JSONData.map((speaker, index) =>
-      
-        <div className={teamStyles.teamMember} onClick={function (e) {
-          window.open(speaker.profileLink, '__blank')
-        }}>
-          <div className="column">
-              <div>
-                <Image
-                  className={teamStyles.profileImage}
-                  alt="Profile Picture"
-                  filename={speaker.imgPath}
-                />
-              </div>
-              <div className="container">
-                <h2>{speaker.name}</h2>
-              </div>
-            </div>
+  return data.allTeamDataJson.nodes.map(node => (
+    <div
+      key={node.id}
+      className={teamStyles.teamMember}
+      onClick={_ => window.open(node.profileLink, "__blank")}
+    >
+      <div className="column">
+        <div>
+          <Image
+            className={teamStyles.profileImage}
+            alt="Profile Picture"
+            filename={node.imgPath}
+          />
         </div>
-    )
-  )
-
+        <div className="container">
+          <h2>{node.name}</h2>
+        </div>
+      </div>
+    </div>
+  ))
 }
-
-
