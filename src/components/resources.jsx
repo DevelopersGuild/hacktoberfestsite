@@ -21,6 +21,7 @@ function EmbeddedField(props) {
                 width={width ? width : "560"}
                 height={height ? height : "315"}
                 src={`https://www.youtube.com/embed/${videoID}`}
+                frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
             ></iframe>
