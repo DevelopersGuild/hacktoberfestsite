@@ -7,7 +7,7 @@ import navBarStyles from "../styles/navigation-bar.module.css"
 import Image from '../components/image'
 import MediaQuery from 'react-responsive'
 import MenuIcon from '@material-ui/icons/Menu';
-import ExternalLink from "./external-link"
+import {ExternalLink} from "react-external-link"
 
 
 import { graphql } from "gatsby"
@@ -75,7 +75,7 @@ export default class NavigationBar extends React.Component {
                 <MenuItem onClick={this.handleClose}>Schedule</MenuItem>
               </Link>
 
-              <Link to="#speakers" spy={true} smooth={true} duration={500} offset={-70}>
+              <Link spy={true} smooth={true} duration={500} offset={-70}>
                 <MenuItem onClick={this.handleClose}>Speakers</MenuItem>
               </Link>
 
@@ -85,6 +85,10 @@ export default class NavigationBar extends React.Component {
 
               <Link to="#faq" spy={true} smooth={true} duration={500} offset={-70}>
                 <MenuItem onClick={this.handleClose}>FAQ</MenuItem>
+              </Link>
+
+              <Link to="#resources" spy={true} smooth={true} duration={500} offset={-70}>
+                <MenuItem onClick={this.handleClose}>Resources</MenuItem>
               </Link>
 
             </Menu>
@@ -149,6 +153,18 @@ export default class NavigationBar extends React.Component {
                   offset={-70}
                 >
                   FAQ
+                </Link>
+              </li>
+              <li className={navBarStyles.navItem}>
+                <Link
+                  activeClass={navBarStyles.activeScroll}
+                  to="#resources"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                >
+                  Resources
                 </Link>
               </li>
             </ul>

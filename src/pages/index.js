@@ -8,6 +8,7 @@ import { ParallaxProvider, Parallax } from "react-scroll-parallax"
 import Faq from "../components/faq"
 import Image from "../components/image"
 import AboutUs from "../components/about-us"
+import Curated from "../components/resources"
 import landingPageStyles from "../styles/landingPage.module.css"
 import Sponsors from "../components/sponsors"
 import Typing from "react-typing-animation"
@@ -140,6 +141,19 @@ export default class Home extends React.Component {
               Some commonly asked questions
             </p>
             <Faq />
+          </div>
+          {/* Resources Section */}
+          <div
+            id="#resources"
+            className={clsx("container", css(styles.fullHeightContainer))}
+          >
+            <Bounce left>
+              <h1 className="display-2">Resources</h1>
+            </Bounce>
+            <p className="lead mb-3 text-mono text-primary">
+              Some stuff to help you get started!
+            </p>
+              <Curated />
           </div>
           {/* Sponsors Section */}
           <div id="#sponsors" className={"container"}>
