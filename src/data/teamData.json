@@ -19,6 +19,12 @@
 
     },
     {
+        "name": "Yousef Helal",
+        "imgPath": "yousef.jpg",
+        "profileLink": "https://www.linkedin.com/in/yousef-helal-2a9a42199/"
+
+    },
+    {
         "name": "Ezekiel Chow",
         "imgPath": "ezekiel.jpg",
         "profileLink": "https://www.linkedin.com/in/ezekiel-chow-244a171a1/"
@@ -28,12 +34,6 @@
         "name": "Yusuf Quddus",
         "imgPath": "yusuf.jpg",
         "profileLink": "https://www.linkedin.com/in/yusuf-quddus/"
-
-    },
-    {
-        "name": "Yousef Helal",
-        "imgPath": "yousef.jpg",
-        "profileLink": "https://www.linkedin.com/in/yousef-helal-2a9a42199/"
 
     },
     {
