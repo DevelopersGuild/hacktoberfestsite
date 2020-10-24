@@ -45,14 +45,8 @@
         "events": [
             {
                 "name": "Power Networking + Resume building",
-                "host": "Nupur Mehta",
-                "timeBlock": "09:30am-10:30am",
-                "dayRank": 1
-            },
-            {
-                "name": "A Special Event",
-                "host": "Justice Ogbonna",
-                "timeBlock": "10:45am-11:45am",
+                "host": "Nupur Mehta + Justice Ogbonna",
+                "timeBlock": "09:30am-11:30am",
                 "dayRank": 1
             },
             {
@@ -68,7 +62,7 @@
                 "dayRank": 1
             },
             {
-                "name": "Final Presentation",
+                "name": "Closing + Sharing Ceremony",
                 "host": "The DA Hack Team",
                 "timeBlock": "02:30pm-03:30pm",
                 "dayRank": 1
