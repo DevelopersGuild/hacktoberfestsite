@@ -33,12 +33,6 @@
                 "dayRank": 1
             },
             {
-                "name": "Break",
-                "host": "The Attendees",
-                "timeBlock": "5:30pm-06:00pm",
-                "dayRank": 1
-            },
-            {
                 "name": "The Coding Continues",
                 "host": "The Attendees",
                 "timeBlock": "06:00pm-onwards",
