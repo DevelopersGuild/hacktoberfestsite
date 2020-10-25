@@ -35,10 +35,16 @@
         "imgPath": "tal.jpg",
         "profileLink": "https://www.linkedin.com/in/talglobus/"
     },
-      {
+    {
         "name": "Matt Upham",
         "description": "A software engineer at a growing Fintech company, with many insights into the career of a software developer",
         "imgPath": "upham.jpg",
         "profileLink": "https://www.linkedin.com/in/mattupham/"
+    },
+    {
+        "name": "Himanshu Ragtah",
+        "description": "Helping catalyze robotics and artificial intelligence R&D. Ex-Tesla, TEDx Speaker, Kairos Fello",
+        "imgPath": "ragtah.jpg",
+        "profileLink": "https://www.linkedin.com/in/himanshuragtah/"
     }
 ]
