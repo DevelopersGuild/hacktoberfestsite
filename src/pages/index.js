@@ -67,16 +67,16 @@ export default class Home extends React.Component {
             </Typing>
             <hr className="my-4" />
             <p className={landingPageStyles.buttonDescription}>
-              Register for the event through the MLH portal
+              DA Hack Has Concluded For 2020
             </p>
             <div className="text-mono">
               <a
-                href="https://organize.mlh.io/participants/events/4217-da-hack"
+                //href="https://organize.mlh.io/participants/events/4217-da-hack"
                 target="__blank"
                 rel="noreferrer"
                 className={`btn btn-primary px-5 my-2 ml-0 text-center js-ht-download-link ${landingPageStyles.mainButton}`}
               >
-                Register Today
+                See You Next Year!
               </a>
             </div>
           </div>
