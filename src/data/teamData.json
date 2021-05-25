@@ -7,15 +7,21 @@
 
     },
     {
-        "name": "Carlos Alba",
-        "imgPath": "carlos.jpg",
-        "profileLink": "https://carlosalba.dev/"
-
-    },
-    {
         "name": "Ryan Teoh",
         "imgPath": "ryan.jpg",
         "profileLink": "https://www.linkedin.com/in/teoh-ryan-4878bb198/"
+
+    },
+    {
+        "name": "Yousef Helal",
+        "imgPath": "yousef.jpg",
+        "profileLink": "https://www.linkedin.com/in/yousef-helal-2a9a42199/"
+
+    },
+    {
+        "name": "Carlos Alba",
+        "imgPath": "carlos.jpg",
+        "profileLink": "https://carlosalba.dev/"
 
     },
     {
@@ -28,12 +34,6 @@
         "name": "Yusuf Quddus",
         "imgPath": "yusuf.jpg",
         "profileLink": "https://www.linkedin.com/in/yusuf-quddus/"
-
-    },
-    {
-        "name": "Yousef Helal",
-        "imgPath": "yousef.jpg",
-        "profileLink": "https://www.linkedin.com/in/yousef-helal-2a9a42199/"
 
     },
     {

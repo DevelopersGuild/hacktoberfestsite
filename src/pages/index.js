@@ -1,32 +1,33 @@
 import React from "react"
 import Helmet from "react-helmet"
+import clsx from "clsx"
+import { StyleSheet, css } from "aphrodite"
 import NavigationBar from "../components/navigation-bar"
 import ScheduleTable from "../components/schedule-table"
+import JSONData from "../data/homeData.json"
 import SpeakersGrid from "../components/speakers-grid"
 import TeamGrid from "../components/team-grid"
 import { ParallaxProvider, Parallax } from "react-scroll-parallax"
 import Faq from "../components/faq"
 import Image from "../components/image"
 import AboutUs from "../components/about-us"
+import Curated from "../components/resources"
 import landingPageStyles from "../styles/landingPage.module.css"
 import Sponsors from "../components/sponsors"
 import Typing from "react-typing-animation"
 import ExpandLessIcon from "@material-ui/icons/ExpandLess"
 import Bounce from "react-reveal/Bounce"
-import { graphql } from "gatsby"
 
 export default class Home extends React.Component {
-  constructor({ data }) {
+  constructor(props) {
     super()
     if (typeof window !== `undefined`) {
       this.state = {
         windowPosition: window.pageYOffset,
-        data: data,
       }
     } else {
       this.state = {
         windowPosition: 0,
-        data: data,
       }
     }
   }
@@ -53,7 +54,7 @@ export default class Home extends React.Component {
         <NavigationBar />
         <br />
         <ParallaxProvider>
-          <div className={"container"}>
+          <div className={clsx("container", css(styles.fullHeightContainer))}>
             <Image alt="Hackathon Banner Image" filename="background-top.png" />
           </div>
           <div className={landingPageStyles.content}>
@@ -62,31 +63,34 @@ export default class Home extends React.Component {
               speed={30}
               hideCursor={false}
             >
-              {this.state.data.allDataJson.nodes[0].description}
+              {JSONData.description}
             </Typing>
             <hr className="my-4" />
             <p className={landingPageStyles.buttonDescription}>
-              Register for the event through the MLH portal
+              DA Hack Has Concluded For 2020
             </p>
             <div className="text-mono">
               <a
-                href="https://organize.mlh.io/participants/events/4217-da-hack"
+                //href="https://organize.mlh.io/participants/events/4217-da-hack"
                 target="__blank"
                 rel="noreferrer"
                 className={`btn btn-primary px-5 my-2 ml-0 text-center js-ht-download-link ${landingPageStyles.mainButton}`}
               >
-                Register Today
+                See You Next Year!
               </a>
             </div>
           </div>
-          <div className={"container"}>
+          <div className={clsx("container", css(styles.fullHeightContainer))}>
             <Image
               alt="Hackathon Banner Image"
               filename="background-bottom.png"
             />
           </div>
           {/* About*/}
-          <div id="#about" className={"container"}>
+          <div
+            id="#about"
+            className={clsx("container", css(styles.fullHeightContainer))}
+          >
             <Bounce left>
               <h1 className="display-2">About</h1>
             </Bounce>
@@ -96,7 +100,10 @@ export default class Home extends React.Component {
             <AboutUs />
           </div>
           {/* Schedule Section we use the ID field for navigation */}
-          <div id="#schedule" className={"container"}>
+          <div
+            id="#schedule"
+            className={clsx("container", css(styles.fullHeightContainer))}
+          >
             <Bounce left>
               <h1 className="display-2">Schedule</h1>
             </Bounce>
@@ -108,7 +115,10 @@ export default class Home extends React.Component {
             </div>
           </div>
           {/* Speakers Section */}
-          <div id="#speakers" className={"container"}>
+          <div
+            id="#speakers"
+            className={clsx("container", css(styles.fullHeightContainer))}
+          >
             <Bounce left>
               <h1 className="display-2">Speakers</h1>
             </Bounce>
@@ -120,7 +130,10 @@ export default class Home extends React.Component {
             </div>
           </div>
           {/* Team Section */}
-          <div id="#team" className={"container"}>
+          <div
+            id="#team"
+            className={clsx("container", css(styles.fullHeightContainer))}
+          >
             <Bounce left>
               <h1 className="display-2">Team</h1>
             </Bounce>
@@ -132,17 +145,37 @@ export default class Home extends React.Component {
             </Parallax>
           </div>
           {/* FAQ Section */}
-          <div id="#faq" className={"container"}>
-            <Bounce left>
-              <h1 className="display-2">FAQ</h1>
+          <div
+            id="#faq"
+            className={clsx("container", css(styles.fullHeightContainer))}
+          >
+                    <Bounce left>
+
+            <h1 className="display-2">FAQ</h1>
             </Bounce>
             <p className="lead mb-3 text-mono text-primary">
               Some commonly asked questions
             </p>
             <Faq />
           </div>
+          {/* Resources Section */}
+          <div
+            id="#resources"
+            className={clsx("container", css(styles.fullHeightContainer))}
+          >
+            <Bounce left>
+              <h1 className="display-2">Resources</h1>
+            </Bounce>
+            <p className="lead mb-3 text-mono text-primary">
+              Some stuff to help you get started!
+            </p>
+              <Curated />
+          </div>
           {/* Sponsors Section */}
-          <div id="#sponsors" className={"container"}>
+          <div
+            id="#sponsors"
+            className={clsx("container", css(styles.fullHeightContainer))}
+          >
             <Bounce left>
               <h1 className="display-2">Sponsors</h1>
             </Bounce>
@@ -172,12 +205,8 @@ export default class Home extends React.Component {
   }
 }
 
-export const query = graphql`
-  query HomePageData {
-    allDataJson {
-      nodes {
-        description
-      }
-    }
-  }
-`
+// apply custom styles through the aphrodite stylesheet
+// https://github.com/Khan/aphrodite
+const styles = StyleSheet.create({
+  customStyle: {},
+})
