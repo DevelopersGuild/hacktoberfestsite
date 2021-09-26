@@ -48,17 +48,17 @@ export default class AboutUs extends React.Component {
               <div
                 className={`${aboutUsStyles.secondaryInfo} ${aboutUsStyles.topLeft}`}
               >
-                {data.allDataJson.nodes[0].about_us_off_1}
+                {data.allDataJson.nodes[1].about_us_off_1}
               </div>
               <div
                 className={`${aboutUsStyles.secondaryInfo} ${aboutUsStyles.midLeft}`}
               >
-                {data.allDataJson.nodes[0].about_us_off_2}
+                {data.allDataJson.nodes[1].about_us_off_2}
               </div>
               <div
                 className={`${aboutUsStyles.secondaryInfo} ${aboutUsStyles.bottomLeft}`}
               >
-                {data.allDataJson.nodes[0].about_us_off_3}
+                {data.allDataJson.nodes[1].about_us_off_3}
               </div>
             </div>
             <div
@@ -72,23 +72,23 @@ export default class AboutUs extends React.Component {
               }}
               className={aboutUsStyles.mainInfo}
             >
-              {data.allDataJson.nodes[0].about_us_main}
+              {data.allDataJson.nodes[1].about_us_main}
             </div>
             <div>
               <div
                 className={`${aboutUsStyles.secondaryInfo} ${aboutUsStyles.topRight}`}
               >
-                {data.allDataJson.nodes[0].about_us_off_4}
+                {data.allDataJson.nodes[1].about_us_off_4}
               </div>
               <div
                 className={`${aboutUsStyles.secondaryInfo} ${aboutUsStyles.midRight}`}
               >
-                {data.allDataJson.nodes[0].about_us_off_5}
+                {data.allDataJson.nodes[1].about_us_off_5}
               </div>
               <div
                 className={`${aboutUsStyles.secondaryInfo} ${aboutUsStyles.bottomRight}`}
               >
-                {data.allDataJson.nodes[0].about_us_off_6}
+                {data.allDataJson.nodes[1].about_us_off_6}
               </div>
             </div>
           </div>

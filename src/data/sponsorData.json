@@ -1,18 +1,14 @@
 [
-    {
-        "imgPath": "ailogo.png",
-        "link": "mailto:ai.at.deanza@gmail.com"
-    },
-    {
-        "imgPath": "dadevlogo.png",
-        "link": "https://www.da-developers.dev/"
-    },
-    {
-        "imgPath": "dglogo.png",
-        "link": "https://www.da-developers.dev/"
-    },
-    {
-        "imgPath": "wicslogo.png",
-        "link": "https://www.facebook.com/cswomen.deanza/"
-    }
+  {
+    "imgPath": "dadevlogo.png",
+    "link": "https://www.da-developers.dev/"
+  },
+  {
+    "imgPath": "dglogo.png",
+    "link": "https://www.da-developers.dev/"
+  },
+  {
+    "imgPath": "wicslogo.png",
+    "link": "https://www.facebook.com/cswomen.deanza/"
+  }
 ]

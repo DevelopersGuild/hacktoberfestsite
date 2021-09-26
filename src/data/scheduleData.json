@@ -1,78 +1,78 @@
 [
-    {
-        "day": "Saturday",
-        "events": [
-            {
-                "name": "Welcome Session + Project Finding + Q&A",
-                "host": "The DA Hack Team",
-                "timeBlock": "10:00m-11:00am",
-                "dayRank": 1
-            },
-            {
-                "name": "An Intro To Git",
-                "host": "Priscilla Wang",
-                "timeBlock": "01:00pm-02:00pm",
-                "dayRank": 1
-            },
-            {
-                "name": "An Intro To APIs",
-                "host": "Sreeya Sai",
-                "timeBlock": "02:15pm-03:15pm",
-                "dayRank": 1
-            },
-            {
-                "name": "Trade Secrets to Prepare For a 6-Figure Tech Career",
-                "host": "Cathryn Paterson",
-                "timeBlock": "03:30pm-04:30pm",
-                "dayRank": 1
-            },
-            {
-                "name": "How To Be a Successful Full Stack Developer",
-                "host": "Matt Upham",
-                "timeBlock": "04:45pm-05:45pm",
-                "dayRank": 1
-            },
-            {
-                "name": "The Coding Continues",
-                "host": "The Attendees",
-                "timeBlock": "06:00pm-onwards",
-                "dayRank": 1
-            }
-        ]
-    },
-    {
-        "day": "Sunday",
-        "events": [
-            {
-                "name": "Power Networking + Resume building",
-                "host": "Nupur Mehta + Justice Ogbonna",
-                "timeBlock": "09:30am-11:30am",
-                "dayRank": 1
-            },
-            {
-                "name": "Break",
-                "host": "The Attendees",
-                "timeBlock": "12:00pm-01:00pm",
-                "dayRank": 1
-            },
-            {
-                "name": "Real World AI: Building Skynet For Fun and Profit",
-                "host": "Tal Globus",
-                "timeBlock": "01:00pm-2:00pm",
-                "dayRank": 1
-            },
-            {
-                "name": "Closing + Sharing",
-                "host": "The DA Hack Team",
-                "timeBlock": "02:30pm-03:30pm",
-                "dayRank": 1
-            },
-            {
-                "name": "The End of DA Hack(for this year)",
-                "host": "DA Hack",
-                "timeBlock": "3:30pm-nextYear",
-                "dayRank": 1
-            }
-        ]
-    }
+  {
+    "day": "Saturday",
+    "events": [
+      {
+        "name": "Introduction to XREDU",
+        "host": "Azine Davoudzadeh",
+        "timeBlock": "10:00am-11:00am",
+        "dayRank": 1
+      },
+      {
+        "name": "An Intro To Git",
+        "host": "Priscilla Wang",
+        "timeBlock": "01:00pm-02:00pm",
+        "dayRank": 1
+      },
+      {
+        "name": "An Intro To APIs",
+        "host": "Sreeya Sai",
+        "timeBlock": "02:15pm-03:15pm",
+        "dayRank": 1
+      },
+      {
+        "name": "Trade Secrets to Prepare For a 6-Figure Tech Career",
+        "host": "Cathryn Paterson",
+        "timeBlock": "03:30pm-04:30pm",
+        "dayRank": 1
+      },
+      {
+        "name": "How To Be a Successful Full Stack Developer",
+        "host": "Matt Upham",
+        "timeBlock": "04:45pm-05:45pm",
+        "dayRank": 1
+      },
+      {
+        "name": "The Coding Continues",
+        "host": "The Attendees",
+        "timeBlock": "06:00pm-onwards",
+        "dayRank": 1
+      }
+    ]
+  },
+  {
+    "day": "Sunday",
+    "events": [
+      {
+        "name": "Power Networking + Resume building",
+        "host": "Nupur Mehta + Justice Ogbonna",
+        "timeBlock": "09:30am-11:30am",
+        "dayRank": 1
+      },
+      {
+        "name": "Break",
+        "host": "The Attendees",
+        "timeBlock": "12:00pm-01:00pm",
+        "dayRank": 1
+      },
+      {
+        "name": "Real World AI: Building Skynet For Fun and Profit",
+        "host": "Tal Globus",
+        "timeBlock": "01:00pm-2:00pm",
+        "dayRank": 1
+      },
+      {
+        "name": "Closing + Sharing",
+        "host": "The DA Hack Team",
+        "timeBlock": "02:30pm-03:30pm",
+        "dayRank": 1
+      },
+      {
+        "name": "The End of DA Hack(for this year)",
+        "host": "DA Hack",
+        "timeBlock": "3:30pm-nextYear",
+        "dayRank": 1
+      }
+    ]
+  }
 ]
