@@ -4,6 +4,12 @@ import Img from "gatsby-image"
 
 // Note: You can change "images" to whatever you'd like.
 
+/**
+ * Grabs and renders an image file with Gatsby Image
+ *
+ * Props:
+ * - filename: path to image file relative to /src/components/images
+ */
 const Image = props => (
   <StaticQuery
     query={graphql`

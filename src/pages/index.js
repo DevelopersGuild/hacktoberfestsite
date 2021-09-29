@@ -66,26 +66,13 @@ export default class Home extends React.Component {
               {JSONData.description}
             </Typing>
             <hr className="my-4" />
-            <p className={landingPageStyles.buttonDescription}>
-              DA Hack Has Concluded For 2020
-            </p>
-            <div className="text-mono">
-              <a
-                //href="https://organize.mlh.io/participants/events/4217-da-hack"
-                target="__blank"
-                rel="noreferrer"
-                className={`btn btn-primary px-5 my-2 ml-0 text-center js-ht-download-link ${landingPageStyles.mainButton}`}
-              >
-                See You Next Year!
-              </a>
-            </div>
           </div>
-          <div className={clsx("container", css(styles.fullHeightContainer))}>
+          {/*<div className={clsx("container", css(styles.fullHeightContainer))}>
             <Image
               alt="Hackathon Banner Image"
               filename="background-bottom.png"
             />
-          </div>
+          </div>*/}
           {/* About*/}
           <div
             id="#about"
@@ -149,9 +136,8 @@ export default class Home extends React.Component {
             id="#faq"
             className={clsx("container", css(styles.fullHeightContainer))}
           >
-                    <Bounce left>
-
-            <h1 className="display-2">FAQ</h1>
+            <Bounce left>
+              <h1 className="display-2">FAQ</h1>
             </Bounce>
             <p className="lead mb-3 text-mono text-primary">
               Some commonly asked questions
@@ -169,7 +155,7 @@ export default class Home extends React.Component {
             <p className="lead mb-3 text-mono text-primary">
               Some stuff to help you get started!
             </p>
-              <Curated />
+            <Curated />
           </div>
           {/* Sponsors Section */}
           <div

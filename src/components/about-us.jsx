@@ -4,6 +4,12 @@ import Image from "../components/image"
 
 import { graphql, StaticQuery } from "gatsby"
 
+/**
+ * Contains floating bubbles with short blobs of info about the club
+ * Data is stored in /src/data/homeData.json
+ *
+ * Receives no props
+ */
 export default class AboutUs extends React.Component {
   constructor(props) {
     super()
