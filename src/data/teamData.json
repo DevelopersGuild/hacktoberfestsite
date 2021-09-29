@@ -1,57 +1,22 @@
 [
-    {
-        "name": "Sue Yen Tan",
-        "description": "hello",
-        "imgPath": "sueyen.jpg",
-        "profileLink": "https://www.linkedin.com/in/sueyenny/"
-
-    },
-    {
-        "name": "Ryan Teoh",
-        "imgPath": "ryan.jpg",
-        "profileLink": "https://www.linkedin.com/in/teoh-ryan-4878bb198/"
-
-    },
-    {
-        "name": "Yousef Helal",
-        "imgPath": "yousef.jpg",
-        "profileLink": "https://www.linkedin.com/in/yousef-helal-2a9a42199/"
-
-    },
-    {
-        "name": "Carlos Alba",
-        "imgPath": "carlos.jpg",
-        "profileLink": "https://carlosalba.dev/"
-
-    },
-    {
-        "name": "Ezekiel Chow",
-        "imgPath": "ezekiel.jpg",
-        "profileLink": "https://www.linkedin.com/in/ezekiel-chow-244a171a1/"
-
-    },
-    {
-        "name": "Yusuf Quddus",
-        "imgPath": "yusuf.jpg",
-        "profileLink": "https://www.linkedin.com/in/yusuf-quddus/"
-
-    },
-    {
-        "name": "Alvin Fabrio",
-        "imgPath": "alvin.jpg",
-        "profileLink": "https://www.linkedin.com/in/alvin-fabrio-8259071a7/"
-
-    },
-    {
-        "name": "Arushi Sharma",
-        "imgPath": "arushi.jpg",
-        "profileLink": "https://www.linkedin.com/in/arushi-sharma01/"
-
-    },
-    {
-        "name": "Johnny To",
-        "imgPath": "johnny.jpg",
-        "profileLink": "https://www.linkedin.com/in/johnny-to-431273160/"
-
-    }
+  {
+    "name": "Jesse Lutan",
+    "imgPath": "dglogo.png",
+    "profileLink": "https://www.linkedin.com/in/jesse-lutan/"
+  },
+  {
+    "name": "Maxim Bravo",
+    "imgPath": "dglogo.png",
+    "profileLink": ""
+  },
+  {
+    "name": "Janani Pandurangan",
+    "imgPath": "dglogo.png",
+    "profileLink": ""
+  },
+  {
+    "name": "Prayusha",
+    "imgPath": "dglogo.png",
+    "profileLink": ""
+  }
 ]

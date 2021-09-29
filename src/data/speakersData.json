@@ -1,26 +1,26 @@
 [
   {
     "name": "Azine Davoudzadeh",
-    "description": "Educator, speaker, and thought leader in the XR Education space. Founder of XR EDU.",
+    "description": "Founder of XR EDU, an organization that researches virtual, augmented, and mixed reality solutions for classrooms. Educator, speaker, and thought leader in the XR Education space.",
     "imgPath": "azine_davoudzadeh.jpg",
     "profileLink": "https://www.linkedin.com/in/azined/"
   },
   {
-    "name": "Placeholder",
+    "name": "Tal Globus",
+    "description": "A passionate software engineer with expertise in the field of Machine Learning. Cofounder of Stealth Biotech Startup.",
+    "imgPath": "tal.jpg",
+    "profileLink": "https://www.linkedin.com/in/talglobus/"
+  },
+  {
+    "name": "Annam Quraishi",
     "description": "Placeholder",
-    "imgPath": "",
+    "imgPath": "dglogo.png",
     "profileLink": ""
   },
   {
-    "name": "Placeholder",
-    "description": "Placeholder",
-    "imgPath": "",
-    "profileLink": ""
-  },
-  {
-    "name": "Placeholder",
-    "description": "Placeholder",
-    "imgPath": "",
-    "profileLink": ""
+    "name": "Dan Turchin",
+    "description": "CEO and Founder of PeopleReign, the leading AI platform for employee service automation. Passionate about building great teams to solve large problems.",
+    "imgPath": "Dan_Turchin.jpg",
+    "profileLink": "https://www.linkedin.com/in/dturchin"
   }
 ]
