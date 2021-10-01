@@ -1,34 +1,42 @@
 [
-    {
-        "title": "What is open source?",
-        "answer": "Open source refers to source code that is publicly accessible and allows anyone to inspect, modify or learn from it. Open source projects encourage collaboration and the freedom to use the software for any purpose you wish."
-    },
-    {
-        "title": "What is a pull request?",
-        "answer": "Pull requests are proposed code changes you can submit to a branch in a repository on GitHub. Once submitted, a project maintainer will review and discuss the changes before they become final."
-    },
-    {
-        "title": "Can students from other colleges attend?",
-        "answer": "Yup. DA Hack is open to all students, regardless of which school they attend!"
-    },
-    {
-        "title": "What level of experience is required?",
-        "answer": "DA Hack is open to students of all levels of experience. Whether you are taking your introductory CS class, or have done years of programming, we welcome you!"
-    },
-    {
-        "title": "Do I have to be a Computer Science Major?",
-        "answer": "Nope. DA Hack is open to all students, regardless of their major!"
-    },
-    {
-        "title": "When will DA Hack be taking place?",
-        "answer": "DA Hack will be taking place on the days of October 24th and 25th. On the first day, we will have a welcome session at 9:30am, marking the beginning of DA Hack. We will have various workshops, presentations, and more, until 4pm of the next day!"
-    },
-    {
-        "title": "Where will DA Hack be taking place?",
-        "answer": "Unfortunatley, we find ourselves in the middle of a pandemic. As such, DA Hack will be completley online this year!"
-    },
-    {
-        "title": "What platforms will DA Hack be using?",
-        "answer": "We will be hosting all presentations, and live events through Zoom. In terms of contributing, the far majority of that will be done through GitHub!"
-    }
+  {
+    "title": "What is open source?",
+    "answer": "Open source refers to source code that is publicly accessible and allows anyone to inspect, modify or learn from it. Open source projects encourage collaboration and the freedom to use the software for any purpose you wish."
+  },
+  {
+    "title": "What is a pull request?",
+    "answer": "Pull requests are proposed code changes you can submit to a branch in a repository on GitHub. Once submitted, a project maintainer will review and discuss the changes before they become final."
+  },
+  {
+    "title": "Can students from other colleges attend?",
+    "answer": "Yes. DA Hack is open to all students, regardless of which school they attend. We encourage you to invite your friends!"
+  },
+  {
+    "title": "What level of experience is required?",
+    "answer": "DA Hack is open to students of all levels of experience. Whether you are taking your introductory CS class, or have years of programming experience, we welcome you!"
+  },
+  {
+    "title": "Do I have to be a Computer Science Major?",
+    "answer": "Nope. DA Hack is open to all students, regardless of their major!"
+  },
+  {
+    "title": "When will DA Hack be taking place?",
+    "answer": "DA Hack will be taking place over the weekend of October 23-24. On Saturday morning, we will have a welcome session in the morning to mark the beginning of DA Hack. We will have various workshops, presentations, and more, until Sunday evening!"
+  },
+  {
+    "title": "Where will DA Hack be taking place?",
+    "answer": "Unfortunatley, we find ourselves in the middle of a pandemic. As such, DA Hack will be completley online this year!"
+  },
+  {
+    "title": "What platforms will DA Hack be using?",
+    "answer": "We will be hosting all presentations, and live events through Zoom. In terms of contributing, the far majority of that will be done through GitHub!"
+  },
+  {
+    "title": "What are the judging criteria for contributions?",
+    "answer": "The criteria for earning Hacktoberfest swag is based on the number of quality pull requests that you submit to Hacktoberfest-approved open source repositories. For more details, visit the official Hacktoberfest website."
+  },
+  {
+    "title": "What is the mini competition about?",
+    "answer": "The mini competition is a coding race between any participants interested in competing. The top contestants will earn cool prizes!"
+  }
 ]
