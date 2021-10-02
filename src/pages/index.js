@@ -55,7 +55,7 @@ export default class Home extends React.Component {
         <br />
         <ParallaxProvider>
           <div className={clsx("container", css(styles.fullHeightContainer))}>
-            <Image alt="Hackathon Banner Image" filename="background-top.png" />
+            <Image alt="Hackathon Banner Image" filename="background-top.jpg" />
           </div>
           <div className={landingPageStyles.content}>
             <Typing
