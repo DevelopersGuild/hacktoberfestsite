@@ -10,5 +10,13 @@
   {
     "imgPath": "wicslogo.png",
     "link": "https://deanzawics.wixsite.com/dawics"
+  },
+  {
+    "imgPath": "cpclogo.png",
+    "link": "https://www.facebook.com/groups/deanzacpc"
+  },
+  {
+    "imgPath": "H-icon-light.png",
+    "link": "https://hacktoberfest.digitalocean.com/"
   }
 ]

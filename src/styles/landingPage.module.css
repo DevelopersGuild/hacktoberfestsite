@@ -28,8 +28,10 @@
 }
 
 .sponsorContainer {
-  margin-left: 25px;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-evenly;
   justify-content: center;
 }
 
@@ -72,5 +74,15 @@
   }
   50% {
     border-color: orange;
+  }
+}
+
+/* Media queries */
+@media screen and (min-width: 1700px) {
+  .sponsorContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
   }
 }
