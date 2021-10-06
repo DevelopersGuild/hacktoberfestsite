@@ -9,15 +9,9 @@
         "dayRank": 1
       },
       {
-        "name": "Placeholder",
-        "host": "TBD",
-        "timeBlock": "TBD",
-        "dayRank": 1
-      },
-      {
-        "name": "Placeholder",
-        "host": "TBD",
-        "timeBlock": "TBD",
+        "name": "TBA",
+        "host": "TBA",
+        "timeBlock": "TBA",
         "dayRank": 1
       }
     ]
@@ -26,15 +20,9 @@
     "day": "Sunday",
     "events": [
       {
-        "name": "Placeholder",
-        "host": "TBD",
-        "timeBlock": "TBD",
-        "dayRank": 1
-      },
-      {
-        "name": "Placeholder",
-        "host": "TBD",
-        "timeBlock": "TBD",
+        "name": "TBA",
+        "host": "TBA",
+        "timeBlock": "TBA",
         "dayRank": 1
       }
     ]

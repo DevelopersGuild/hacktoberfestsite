@@ -6,17 +6,39 @@
   },
   {
     "name": "Maxim Bravo",
-    "imgPath": "dglogo.png",
-    "profileLink": ""
+    "imgPath": "Maxim_Bravo.png"
   },
   {
     "name": "Janani Pandurangan",
-    "imgPath": "janzNew.jpg",
-    "profileLink": ""
+    "imgPath": "janzNew.jpg"
   },
   {
     "name": "Prayusha",
     "imgPath": "dglogo.png",
     "profileLink": ""
+  },
+  {
+    "name": "Cassie Hashemi",
+    "imgPath": "Cassie_Hashemi.jpg"
+  },
+  {
+    "name": "Sulphine Susio Odio",
+    "imgPath": "Sulphine-Susie-Odio.jpg"
+  },
+  {
+    "name": "Yunna Elly Chong",
+    "imgPath": "Yunna-Elly-Chong.jpg"
+  },
+  {
+    "name": "Sophia Rao",
+    "imgPath": "SophiaRao.jpg"
+  },
+  {
+    "name": "Sam Srivatsan",
+    "imgPath": "Sam-Srivatsan.png"
+  },
+  {
+    "name": "Shadi Bitaraf",
+    "imgPath": "Shadi-Bitaraf.jpg"
   }
 ]

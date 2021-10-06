@@ -13,14 +13,20 @@
   },
   {
     "name": "Annam Quraishi",
-    "description": "Placeholder",
-    "imgPath": "dglogo.png",
-    "profileLink": ""
+    "description": "Over 4 years of experience working with startups and in the biotech industry. Her passion is making lasting impacts in the Medtech field through socially-driven businesses.",
+    "imgPath": "annam.jpg",
+    "profileLink": "https://www.linkedin.com/in/annamq/"
   },
   {
     "name": "Dan Turchin",
     "description": "CEO and Founder of PeopleReign, the leading AI platform for employee service automation. Passionate about building great teams to solve large problems.",
     "imgPath": "Dan_Turchin.jpg",
     "profileLink": "https://www.linkedin.com/in/dturchin"
+  },
+  {
+    "name": "Indira Bhatt"
+  },
+  {
+    "name": "Hema Mutyala"
   }
 ]
