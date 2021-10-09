@@ -1,7 +1,7 @@
 .mainInfo {
   display: flex;
   display: inline-flex;
-  background-color: blueviolet;
+  background-color: #aa341f;
   border-radius: 50%;
   align-items: center;
   padding: 50px;
@@ -15,7 +15,7 @@
   height: 190px;
   display: flex;
   border-radius: 50%;
-  background-color: blueviolet;
+  background-color: #9b321f;
   text-align: center;
   align-items: center;
   margin: auto auto;

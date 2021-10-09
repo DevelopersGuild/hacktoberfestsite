@@ -21,9 +21,9 @@ export default function TeamGrid() {
     <div
       key={node.id}
       className={teamStyles.teamMember}
-      onClick={_ =>
-        node.profileLink ? window.open(node.profileLink, "__blank") : null
-      }
+      // onClick={_ =>
+      //   node.profileLink ? window.open(node.profileLink, "__blank") : null
+      // }
     >
       <div className="column">
         <div>
