@@ -25,7 +25,7 @@
   },
   {
     "title": "Where will DA Hack be taking place?",
-    "answer": "Unfortunatley, we find ourselves in the middle of a pandemic. As such, DA Hack will be completley online this year!"
+    "answer": "Unfortunatley, we find ourselves in the middle of a pandemic. As such, DA Hack will be completely online this year!"
   },
   {
     "title": "What platforms will DA Hack be using?",
@@ -36,7 +36,7 @@
     "answer": "The criteria for earning Hacktoberfest swag is based on the number of quality pull requests that you submit to Hacktoberfest-approved open source repositories. For more details, visit the official Hacktoberfest website."
   },
   {
-    "title": "What is the mini competition about?",
-    "answer": "The mini competition is a coding race between any participants interested in competing. The top contestants will earn cool prizes!"
+    "title": "What is the coding competition about?",
+    "answer": "The coding competition is a problem-solving race hosted by the Competitive Programming Club. An initial screening round will take place where you will need to submit a certain number of successful solutions. If you pass this round, then you will qualify to compete in the competitive round, with more difficult problems and a shorter time limit, for prizes. For more information, check the DA Hack Discord server."
   }
 ]
