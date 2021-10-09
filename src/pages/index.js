@@ -50,7 +50,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Helmet title="De Anza Hacks" defer={false} />
+        <Helmet title="De Anza Hack Fall 2021" defer={false} />
         <NavigationBar />
         <br />
         <ParallaxProvider>
@@ -67,12 +67,6 @@ export default class Home extends React.Component {
             </Typing>
             <hr className="my-4" />
           </div>
-          {/*<div className={clsx("container", css(styles.fullHeightContainer))}>
-            <Image
-              alt="Hackathon Banner Image"
-              filename="background-bottom.png"
-            />
-          </div>*/}
           {/* About*/}
           <div
             id="#about"

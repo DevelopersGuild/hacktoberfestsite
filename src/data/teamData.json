@@ -14,8 +14,7 @@
   },
   {
     "name": "Prayusha",
-    "imgPath": "dglogo.png",
-    "profileLink": ""
+    "imgPath": "Prayusha.jpg"
   },
   {
     "name": "Cassie Hashemi",
@@ -40,5 +39,25 @@
   {
     "name": "Shadi Bitaraf",
     "imgPath": "Shadi-Bitaraf.jpg"
+  },
+  {
+    "name": "Jack Tian",
+    "imgPath": "jack_tian.jpg"
+  },
+  {
+    "name": "Justin Lu",
+    "imgPath": "justin_lu.jpg"
+  },
+  {
+    "name": "Masaki Takeuchi",
+    "imgPath": "masaki_takeuchi.jpg"
+  },
+  {
+    "name": "Peter Tran",
+    "imgPath": "peter_tran.jpg"
+  },
+  {
+    "name": "Shams Ansari",
+    "imgPath": "shams_ansari.jpg"
   }
 ]
