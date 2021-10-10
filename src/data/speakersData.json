@@ -24,9 +24,15 @@
     "profileLink": "https://www.linkedin.com/in/dturchin"
   },
   {
-    "name": "Indira Bhatt"
+    "name": "Indira Bhatt",
+    "description": "Indira is an open source compliance consultant. Her experience is in open source licensing, processes, tooling and tech M&A’s. Indira is also a community representative for the Linux Foundations OpenChain Project.",
+    "imgPath": "indira_bhatt.jpg",
+    "profileLink": "https://www.linkedin.com/in/indirabhatt"
   },
   {
-    "name": "Hema Mutyala"
+    "name": "Hema Mutyala",
+    "description": "Hema is a master's student in Software Engineering with specialization in Cloud Computing and virtualization at San Jose State University. She is passionate about solving high impact problems using data and has a strong background in Software Development, Virtualization, and Cloud Computing.",
+    "imgPath": "hema_mutyala.jpg",
+    "profileLink": "https://www.linkedin.com/in/hema-prasanthi/"
   }
 ]
