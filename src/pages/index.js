@@ -66,8 +66,24 @@ export default class Home extends React.Component {
               {JSONData.description}
             </Typing>
             <hr className="my-4" />
+            {/* Join Button */}
+            <a
+              href="https://bit.ly/3moYc40"
+              target="_blank"
+              rel="noopener roreferrer"
+            >
+              <button
+                type="button"
+                className="btn btn-primary"
+                style={{
+                  fontSize: "30px",
+                }}
+              >
+                Join Us!
+              </button>
+            </a>
           </div>
-          {/* About*/}
+          {/* About */}
           <div
             id="#about"
             className={clsx("container", css(styles.fullHeightContainer))}
