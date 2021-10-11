@@ -1,20 +1,19 @@
 .teamMember {
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-    text-align: center;
-    border-radius: 50%;
-
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 50%;
 }
 
-.teamMember:hover {
+/* .teamMember:hover {
     cursor: pointer;
-}
+} */
 
 .profileImage {
-    border-radius: 50%;
-    width: 220px;
-    height: 220px;
-    margin: 10px auto;
-  }
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  margin: 10px auto;
+}

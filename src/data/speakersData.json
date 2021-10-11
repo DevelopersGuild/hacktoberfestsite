@@ -1,50 +1,38 @@
 [
-    {
-        "name": "Cathryn Patterson",
-        "description": "Founder of icathryn.com and BizPair. A career coaching influencer with a cause",
-        "imgPath": "cathryn.jpg",
-        "profileLink": "https://www.linkedin.com/in/cathrynpatterson/"
-    },
-    {
-        "name": "Sreeya Sai",
-        "description": "A software engineer at Drift with experience in numerous technologies, as well as mentoring students",
-        "imgPath": "sreeya.jpg",
-        "profileLink": "https://www.linkedin.com/in/sreeya-sai/"
-    },
-    {
-        "name": "Priscilla Wang",
-        "description": "Founder of Girls Talk Tech, and a developer at JPMorgan",
-        "imgPath": "priscilla.jpg",
-        "profileLink": "https://www.linkedin.com/in/thepriscillawang/"
-    },
-    {
-        "name": "Justice Ogbonna",
-        "description": "A software engineer at Google. Upgrading the world, one line of code at a time",
-        "imgPath": "justin.jpg",
-        "profileLink": "https://www.linkedin.com/in/justiceogbonna/"
-    },
-    {
-        "name": "Nupur Mehta",
-        "description": "Co-Founder of OTAinfo, and a Curator at Global Shapers Palo Alto",
-        "imgPath": "nupur.jpg",
-        "profileLink": "https://www.linkedin.com/in/onenupur/"
-    },
-    {
-        "name": "Tal Globus",
-        "description": "A software engineer at 8x8, with expertise in the field of Machine Learning",
-        "imgPath": "tal.jpg",
-        "profileLink": "https://www.linkedin.com/in/talglobus/"
-    },
-    {
-        "name": "Matt Upham",
-        "description": "A software engineer at a growing Fintech company, with many insights into the career of a software developer",
-        "imgPath": "upham.jpg",
-        "profileLink": "https://www.linkedin.com/in/mattupham/"
-    },
-    {
-        "name": "Himanshu Ragtah",
-        "description": "Helping catalyze robotics and artificial intelligence R&D. Ex-Tesla, TEDx Speaker, Kairos Fello",
-        "imgPath": "ragtah.jpg",
-        "profileLink": "https://www.linkedin.com/in/himanshuragtah/"
-    }
+  {
+    "name": "Azine Davoudzadeh",
+    "description": "Founder of XR EDU, an organization that researches virtual, augmented, and mixed reality solutions for classrooms. Educator, speaker, and thought leader in the XR Education space.",
+    "imgPath": "azine_davoudzadeh.jpg",
+    "profileLink": "https://www.linkedin.com/in/azined/"
+  },
+  {
+    "name": "Tal Globus",
+    "description": "A passionate software engineer with expertise in the field of Machine Learning. Cofounder of Stealth Biotech Startup.",
+    "imgPath": "tal.jpg",
+    "profileLink": "https://www.linkedin.com/in/talglobus/"
+  },
+  {
+    "name": "Annam Quraishi",
+    "description": "Over 4 years of experience working with startups and in the biotech industry. Her passion is making lasting impacts in the Medtech field through socially-driven businesses.",
+    "imgPath": "annam.jpg",
+    "profileLink": "https://www.linkedin.com/in/annamq/"
+  },
+  {
+    "name": "Dan Turchin",
+    "description": "CEO and Founder of PeopleReign, the leading AI platform for employee service automation. Passionate about building great teams to solve large problems.",
+    "imgPath": "Dan_Turchin.jpg",
+    "profileLink": "https://www.linkedin.com/in/dturchin"
+  },
+  {
+    "name": "Indira Bhatt",
+    "description": "Indira is an open source compliance consultant. Her experience is in open source licensing, processes, tooling and tech M&A’s. Indira is also a community representative for the Linux Foundations OpenChain Project.",
+    "imgPath": "indira_bhatt.jpg",
+    "profileLink": "https://www.linkedin.com/in/indirabhatt"
+  },
+  {
+    "name": "Hema Mutyala",
+    "description": "Hema is a master's student in Software Engineering with specialization in Cloud Computing and virtualization at San Jose State University. She is passionate about solving high impact problems using data and has a strong background in Software Development, Virtualization, and Cloud Computing.",
+    "imgPath": "hema_mutyala.jpg",
+    "profileLink": "https://www.linkedin.com/in/hema-prasanthi/"
+  }
 ]
