@@ -1,57 +1,63 @@
 [
-    {
-        "name": "Sue Yen Tan",
-        "description": "hello",
-        "imgPath": "sueyen.jpg",
-        "profileLink": "https://www.linkedin.com/in/sueyenny/"
-
-    },
-    {
-        "name": "Ryan Teoh",
-        "imgPath": "ryan.jpg",
-        "profileLink": "https://www.linkedin.com/in/teoh-ryan-4878bb198/"
-
-    },
-    {
-        "name": "Yousef Helal",
-        "imgPath": "yousef.jpg",
-        "profileLink": "https://www.linkedin.com/in/yousef-helal-2a9a42199/"
-
-    },
-    {
-        "name": "Carlos Alba",
-        "imgPath": "carlos.jpg",
-        "profileLink": "https://carlosalba.dev/"
-
-    },
-    {
-        "name": "Ezekiel Chow",
-        "imgPath": "ezekiel.jpg",
-        "profileLink": "https://www.linkedin.com/in/ezekiel-chow-244a171a1/"
-
-    },
-    {
-        "name": "Yusuf Quddus",
-        "imgPath": "yusuf.jpg",
-        "profileLink": "https://www.linkedin.com/in/yusuf-quddus/"
-
-    },
-    {
-        "name": "Alvin Fabrio",
-        "imgPath": "alvin.jpg",
-        "profileLink": "https://www.linkedin.com/in/alvin-fabrio-8259071a7/"
-
-    },
-    {
-        "name": "Arushi Sharma",
-        "imgPath": "arushi.jpg",
-        "profileLink": "https://www.linkedin.com/in/arushi-sharma01/"
-
-    },
-    {
-        "name": "Johnny To",
-        "imgPath": "johnny.jpg",
-        "profileLink": "https://www.linkedin.com/in/johnny-to-431273160/"
-
-    }
+  {
+    "name": "Jesse Lutan",
+    "imgPath": "jesse_lutan.jpg",
+    "profileLink": "https://www.linkedin.com/in/jesse-lutan/"
+  },
+  {
+    "name": "Maxim Bravo",
+    "imgPath": "Maxim_Bravo.png"
+  },
+  {
+    "name": "Janani Pandurangan",
+    "imgPath": "janzNew.jpg"
+  },
+  {
+    "name": "Prayusha",
+    "imgPath": "Prayusha.jpg"
+  },
+  {
+    "name": "Cassie Hashemi",
+    "imgPath": "Cassie_Hashemi.jpg"
+  },
+  {
+    "name": "Sulphine Susio Odio",
+    "imgPath": "Sulphine-Susie-Odio.jpg"
+  },
+  {
+    "name": "Yunna Elly Chong",
+    "imgPath": "Yunna-Elly-Chong.jpg"
+  },
+  {
+    "name": "Sophia Rao",
+    "imgPath": "SophiaRao.jpg"
+  },
+  {
+    "name": "Sam Srivatsan",
+    "imgPath": "Sam-Srivatsan.png"
+  },
+  {
+    "name": "Shadi Bitaraf",
+    "imgPath": "Shadi-Bitaraf.jpg"
+  },
+  {
+    "name": "Jack Tian",
+    "imgPath": "jack_tian.jpg"
+  },
+  {
+    "name": "Justin Lu",
+    "imgPath": "justin_lu.jpg"
+  },
+  {
+    "name": "Masaki Takeuchi",
+    "imgPath": "masaki_takeuchi.jpg"
+  },
+  {
+    "name": "Peter Tran",
+    "imgPath": "peter_tran.jpg"
+  },
+  {
+    "name": "Shams Ansari",
+    "imgPath": "shams_ansari.jpg"
+  }
 ]

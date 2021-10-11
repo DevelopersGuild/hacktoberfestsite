@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "hacktoberfest-2021",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Single page website for the second annual DA Hack celebration in Fall 2021.",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {

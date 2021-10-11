@@ -1,68 +1,69 @@
 .mainInfo {
-    display: flex;
-    display: inline-flex;
-    background-color: blueviolet;
-    border-radius: 50%;
-    align-items: center;
-    padding: 50px;
-    margin: auto auto;
-    font-size: 100%;
-
+  display: flex;
+  display: inline-flex;
+  background-color: #aa341f;
+  border-radius: 50%;
+  align-items: center;
+  padding: 50px;
+  margin: auto auto;
+  font-size: 100%;
 }
 
 .secondaryInfo {
-    flex-wrap: wrap;
-    width: 190px;
-    height: 190px;
-    display: flex;
-    border-radius: 50%;
-    background-color: blueviolet;
-    text-align: center;
-    align-items: center;
-    margin: auto auto;
-    padding: 16px;
-    font-size: 30px;
-    margin: 20px;
-    animation: bounce 1s infinite; 
+  flex-wrap: wrap;
+  width: 190px;
+  height: 190px;
+  display: flex;
+  border-radius: 50%;
+  background-color: #9b321f;
+  text-align: center;
+  align-items: center;
+  margin: auto auto;
+  padding: 16px;
+  font-size: 25px;
+  margin: 20px;
+  animation: bounce 1s infinite;
 }
 
 .topLeft {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
 .midLeft {
-    margin-right: 60px;
+  margin-right: 60px;
 }
 
 .bottomLeft {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
 .topRight {
-    margin-right: 60px;
+  margin-right: 60px;
 }
 
 .midRight {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
 .bottomRight {
-    margin-right: 60px;
+  margin-right: 60px;
 }
 
 .infoRow {
-    flex-wrap: wrap;
-    margin-left: 7%;
-    display: inline-flex;  
-    align-items: center;
-    text-align: center; 
-    justify-content: center;
-
-
+  flex-wrap: wrap;
+  margin-left: 7%;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 @keyframes bounce {
-    0% { }
-    50% { transform: translateY(-5px); }
-    100% { }
+  0% {
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+  }
 }
